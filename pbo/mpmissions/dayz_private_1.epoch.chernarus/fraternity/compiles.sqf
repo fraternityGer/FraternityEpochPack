@@ -1,0 +1,1 @@
+fnc_usec_selfActions = compile preprocessFileLineNumbers "fraternity\fn_selfActions.sqf"; // fnc_usec_selfActions - adds custom actions to dayz code
