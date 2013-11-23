@@ -141,6 +141,7 @@ if (!isDedicated) then {
 [] ExecVM "fraternity\mapUpdates\devfish_camptents.sqf";												// Versteckte Lager
 [] ExecVM "fraternity\mapUpdates\sector_ubf.sqf";														// Sektor UBF
 [] ExecVM "fraternity\mapUpdates\camp.sqf";														        // Camp
+[] ExecVM "fraternity\mapUpdates\SectorBLittle.sqf";														        // Sector B little
 
 //
 // Thanks to AVendettaForYou 
