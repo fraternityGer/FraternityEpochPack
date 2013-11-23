@@ -22,7 +22,7 @@
     
     // wait until the server has spawned all the vehicles ... might take a while
     
-    sleep 15;
+    sleep 600;
   
     _loop = true;
     _chk_count = 0;
