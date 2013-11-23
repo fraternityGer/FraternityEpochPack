@@ -325,13 +325,13 @@ if (!isNull cursorTarget and !_inVehicle and !_isPZombie and (player distance cu
 		// Study body
 		if (_isMan and !_isZombie and !_isAnimal) then {
 			_player_studybody = true;
-		}
+		};
 
 		//bury human
-		if (!_isAlive and !_isZombie and !_isAnimal and _hasETool and _isMan and _canDo) then {
+		if (!_isZombie and !_isAnimal and _hasETool and _isMan and _canDo) then {
         	if (s_player_bury_human < 0) then {
             	s_player_bury_human = player addAction [format["Bury Body"], "fraternity\bury_human.sqf",cursorTarget, 3, true, true, "", ""];
-        	}
+        	};
     	} else {
        		player removeAction s_player_bury_human;
         	s_player_bury_human = -1;
