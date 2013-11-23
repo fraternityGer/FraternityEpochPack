@@ -164,9 +164,6 @@ call compile preprocessfile "addons\SHK_pos\shk_pos_init.sqf";
 // run SAR_AI
 [] execVM "addons\SARGE\SAR_AI_init.sqf";
 
-// Missions
-[] execVM "faction.sqf"; 
-
 // Logistic
 [] execVM "R3F_ARTY_AND_LOG\init.sqf";														// R3F Logistics
 
