@@ -142,6 +142,7 @@ if (!isDedicated) then {
 [] ExecVM "fraternity\mapUpdates\sector_ubf.sqf";														// Sektor UBF
 [] ExecVM "fraternity\mapUpdates\camp.sqf";														        // Camp
 [] ExecVM "fraternity\mapUpdates\SectorBLittle.sqf";														        // Sector B little
+[] execVM "fraternity\mapUpdates\sectorfng_init.sqf"; //Sectorfng
 
 //
 // Thanks to AVendettaForYou 
