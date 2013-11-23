@@ -167,6 +167,9 @@ call compile preprocessfile "addons\SHK_pos\shk_pos_init.sqf";
 // Logistic
 [] execVM "R3F_ARTY_AND_LOG\init.sqf";														// R3F Logistics
 
+//show mission markers
+[] execVM "debug\addmarkers.sqf";
+[] execVM "debug\addmarkers75.sqf";
 // DayZ Watermark
 if (!isNil "server_name") then {
 	[] spawn {
