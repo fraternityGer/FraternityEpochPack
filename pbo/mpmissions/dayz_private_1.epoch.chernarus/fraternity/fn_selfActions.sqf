@@ -129,6 +129,7 @@ if (!isNull cursorTarget and !_inVehicle and !_isPZombie and (player distance cu
 			_hastinitem = true;
 		};
 	} forEach boil_tin_cans;
+	_hasETool = "ItemEtool" in items player;
 	_hasFuelE = 	"ItemJerrycanEmpty" in _magazinesPlayer;
 	_hasFuelBarrelE = 	"ItemFuelBarrelEmpty" in _magazinesPlayer;
 	_hasHotwireKit = 	"ItemHotwireKit" in _magazinesPlayer;
@@ -325,6 +326,16 @@ if (!isNull cursorTarget and !_inVehicle and !_isPZombie and (player distance cu
 		if (_isMan and !_isZombie and !_isAnimal) then {
 			_player_studybody = true;
 		}
+
+		//bury human
+		if (!_isAlive and !_isZombie and !_isAnimal and _hasETool and _isMan and _canDo) then {
+        	if (s_player_bury_human < 0) then {
+            	s_player_bury_human = player addAction [format["Bury Body"], "fixes\bury_human.sqf",cursorTarget, 3, true, true, "", ""];
+        	}
+    	} else {
+       		player removeAction s_player_bury_human;
+        	s_player_bury_human = -1;
+    	};
 	};
 
 
@@ -757,6 +768,8 @@ if (!isNull cursorTarget and !_inVehicle and !_isPZombie and (player distance cu
 	s_player_forceSave = -1;
 	player removeAction s_player_flipveh;
 	s_player_flipveh = -1;
+	player removeAction s_player_bury_human;
+    s_player_bury_human = -1;
 	player removeAction s_player_sleep;
 	s_player_sleep = -1;
 	player removeAction s_player_deleteBuild;
