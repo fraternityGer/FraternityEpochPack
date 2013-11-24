@@ -2,14 +2,14 @@
 private ["_aiunit","_xpos","_ypos","_unitpos","_aiGroup","_wppos","_wpradius","_wpnum","_levelnum","_numunits","_rndLOut","_ailoadout","_wp","_aispawnpos","_aiwep1","_aiammo1","_aiwep2","_aiammo2"];
  
     _aiunit = objNull;
-    _aiGroup = createGroup east;
+    _aiGroup = createGroup EAST;
     _aispawnpos =_this select 0;
     _wpradius = _this select 1;
     _wpnum = _this select 2;
     _numunits = _this select 3;
     _levelnum = _this select 4;
-  SniperTeam = createGroup east;
-	AxeMurderer = createGroup east;
+  SniperTeam = createGroup EAST;
+	AxeMurderer = createGroup EAST;
 	publicVariable "SniperTeam";
 	publicVariable "AxeMurderer";
  
