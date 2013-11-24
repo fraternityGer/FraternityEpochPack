@@ -19,6 +19,8 @@ Map Updates
 
 * Devils Castle
 * Sector FNG
+* Tikhaya City
+* Quarantine Zone Chernogorsk
 * ...
 
 Credits
@@ -32,5 +34,7 @@ Credits
 * [R3F Logistic] R3F - http://www.armaholic.com/page.php?id=9285
 * [Color Effects] - http://opendayz.net/threads/collection-of-cool-colour-corrections.9267/
 * [Service Point] Axe Cop - http://dayzepoch.com/forum/index.php?/topic/3935-release-vehicle-service-point-refuel-repair-rearm-script/
-
+* [Tikhaya City] Poncho - http://opendayz.net/threads/14-hours-down-and-here-it-is-tikhaya-city.14871/
+* [Quarantine Zone Chernogorsk] - Poncho - http://opendayz.net/threads/map-addition-chernogorsk-quarantine-zone.14634/
+ 
 
