@@ -85,21 +85,22 @@ publicvariable "SAR_HUMANITY_HOSTILE_LIMIT";
 
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
 // side definitions
 createCenter east;
 createCenter resistance;
 
 // unfriendly AI bandits
 EAST setFriend [WEST, 0]; 
-EAST setFriend [RESISTANCE, 1];
+EAST setFriend [RESISTANCE, 0];
 
 // Players 
 WEST setFriend [EAST, 0];
-WEST setFriend [RESISTANCE, 0];
+WEST setFriend [RESISTANCE, 1];
 
 // friendly AI 
-RESISTANCE setFriend [EAST, 1];
-RESISTANCE setFriend [WEST, 0];
+RESISTANCE setFriend [EAST, 0];
+RESISTANCE setFriend [WEST, 1];
 
 SAR_AI_friendly_side = resistance;
 SAR_AI_unfriendly_side = east;

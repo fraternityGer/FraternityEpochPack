@@ -240,7 +240,7 @@ KRON_UPS_comradio = 2;
 KRON_UPS_searchVehicledist = 600; // 700, 900  
 
 //Sides that are enemies of resistance // DO NOT CHANGE THIS default east
-KRON_UPS_Res_enemy = [west];
+KRON_UPS_Res_enemy = [east];
 
 // knowsAbout 0 - 4 to add this enemy to the  "target list" (1-4) the higher number the less detect ability (original in 5.0.7 was 0.5)
 // it does not mean the AI will not shoot at you. This means: what must be KNOWN about you to allow the AI to share that information
