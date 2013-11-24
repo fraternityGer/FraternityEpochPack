@@ -7,6 +7,7 @@ Features
 
 * Sarge AI
 * Intro and WelcomeCredits
+* Dayz Missions with Epoch loot stuff
 * Bury Human
 * Selfbloodbag
 * R3F Logistic (only towing)
@@ -36,5 +37,7 @@ Credits
 * [Service Point] Axe Cop - http://dayzepoch.com/forum/index.php?/topic/3935-release-vehicle-service-point-refuel-repair-rearm-script/
 * [Tikhaya City] Poncho - http://opendayz.net/threads/14-hours-down-and-here-it-is-tikhaya-city.14871/
 * [Quarantine Zone Chernogorsk] - Poncho - http://opendayz.net/threads/map-addition-chernogorsk-quarantine-zone.14634/
+* [Dayz Missions] lazyink - https://github.com/lazyink/DayZ-Missions
+* [Epoch loot stuff] MassAsster - http://dayzepoch.com/forum/index.php?/topic/993-dayz-mission-system-randomize-loot/
  
 
