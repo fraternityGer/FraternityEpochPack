@@ -308,25 +308,25 @@ diag_log format["SAR_AI: Static Spawning for Helicopter patrols started"];
 //
 
  //Heli Patrol NWAF
-[SAR_marker_helipatrol_nwaf,3,true] call SAR_AI_heli;
+[SAR_marker_helipatrol_nwaf,3,true,1800] call SAR_AI_heli;
 
 //Heli Patrol NEAF
-[SAR_marker_helipatrol_neaf,1,true] call SAR_AI_heli;
+[SAR_marker_helipatrol_neaf,1,true,1800] call SAR_AI_heli;
 
 // Heli patrol south coast
-[SAR_marker_helipatrol_southcoast,1,true] call SAR_AI_heli;
-[SAR_marker_helipatrol_southcoast,3,true] call SAR_AI_heli;
+[SAR_marker_helipatrol_southcoast,1,true,1800] call SAR_AI_heli;
+[SAR_marker_helipatrol_southcoast,3,true,1800] call SAR_AI_heli;
 
 // heli patrol east coast
-[SAR_marker_helipatrol_eastcoast,1,true] call SAR_AI_heli;
-[SAR_marker_helipatrol_eastcoast,3,true] call SAR_AI_heli;
+[SAR_marker_helipatrol_eastcoast,1,true,1800] call SAR_AI_heli;
+[SAR_marker_helipatrol_eastcoast,3,true,1800] call SAR_AI_heli;
 
 
 // example war scenario in the northwest. Comment OUT after having had a look at it!
-[SAR_marker_DEBUG_veh,1,true,30] call SAR_AI_heli;
-[SAR_marker_DEBUG_veh,1,true,30] call SAR_AI_heli;
-[SAR_marker_DEBUG_veh,3,true,30] call SAR_AI_heli;
-[SAR_marker_DEBUG_veh,3,true,30] call SAR_AI_heli;
+[SAR_marker_DEBUG_veh,1,true,1800] call SAR_AI_heli;
+[SAR_marker_DEBUG_veh,1,true,1800] call SAR_AI_heli;
+[SAR_marker_DEBUG_veh,3,true,1800] call SAR_AI_heli;
+[SAR_marker_DEBUG_veh,3,true,1800] call SAR_AI_heli;
 
 
 diag_log format["SAR_AI: Static Spawning for Helicopter patrols finished"];
@@ -376,10 +376,10 @@ diag_log format["SAR_AI: Static Spawning for infantry patrols started"];
 [SAR_marker_DEBUG_devilscastle,1,0,6,"fortify",true] call SAR_AI;
 
 // example war scenario in the northwest. Comment OUT after having had a look at it!
-[SAR_marker_DEBUG_veh,1,0,9,"patrol",true] call SAR_AI;
-[SAR_marker_DEBUG_veh,2,0,9,"patrol",true] call SAR_AI;
-[SAR_marker_DEBUG_veh,3,0,9,"patrol",true] call SAR_AI;
-[SAR_marker_DEBUG_veh,3,0,9,"patrol",true] call SAR_AI;
+[SAR_marker_DEBUG_veh,1,0,9,"patrol",true,1800] call SAR_AI;
+[SAR_marker_DEBUG_veh,2,0,9,"patrol",true,1800] call SAR_AI;
+[SAR_marker_DEBUG_veh,3,0,9,"patrol",true,1800] call SAR_AI;
+[SAR_marker_DEBUG_veh,3,0,9,"patrol",true,1800] call SAR_AI;
 
 
 //Sector FNG Stuff
