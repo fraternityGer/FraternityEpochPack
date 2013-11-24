@@ -143,7 +143,7 @@ if (!isDedicated) then {
 [] ExecVM "fraternity\mapUpdates\camp.sqf";														        // Camp
 [] execVM "fraternity\mapUpdates\sectorfng_init.sqf"; 													// SectorFNG
 [] execVM "fraternity\mapUpdates\tikhayaCity.sqf";														// Tikhaya City
-
+[] execVM "fraternity\mapUpdates\quarantineZoneCherno.sqf";												// Chernogorsk Quarantine Zone
 //
 // Thanks to AVendettaForYou, Poncho 
 ///////////////////////////////////////////////////////////////////////////////////////////
