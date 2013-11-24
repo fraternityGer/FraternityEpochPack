@@ -227,7 +227,7 @@ _crate addMagazineCargoGlobal ["17Rnd_9x19_glock17", 5];
 
 _crate addWeaponCargoGlobal ["MP5A5", 1];
 
-_crate addWeaponCargoGlobal ["PartEngine", 1];
+_crate addMagazineCargoGlobal ["PartEngine", 1];
 
 _crate addWeaponCargoGlobal ["M16A4_GL", 1];
 
@@ -261,10 +261,4 @@ _crate addMagazineCargoGlobal ["10Rnd_127x99_m107", 5];
 _crate addMagazineCargoGlobal ["5Rnd_86x70_L115A1", 5];
 
 _crate addMagazineCargoGlobal ["20Rnd_762x51_SB_SCAR", 5];
-
-
-
-
-
-
  };

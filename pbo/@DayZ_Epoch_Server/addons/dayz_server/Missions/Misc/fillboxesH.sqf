@@ -10,7 +10,7 @@ clearMagazineCargoGlobal _crate3;
 
 _crate3 addWeaponCargoGlobal ["ItemToolbox", 3];
 
-_crate3 addWeaponCargoGlobal ["PartVRotor", 3];
+_crate3 addMagazineCargoGlobal ["PartVRotor", 3];
 
 
 _crate3 addWeaponCargoGlobal ["glock17_EP1", 1];
@@ -107,7 +107,7 @@ clearWeaponCargoGlobal _crate3;
 clearMagazineCargoGlobal _crate3;
 
 
-_crate3 addWeaponCargoGlobal ["PartEngine", 1];
+_crate3 addMagazineCargoGlobal ["PartEngine", 1];
 
 _crate3 addWeaponCargoGlobal ["ItemMatchbox", 5];
 
