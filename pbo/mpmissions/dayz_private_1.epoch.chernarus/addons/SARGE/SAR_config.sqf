@@ -134,14 +134,14 @@ SAR_heli_shield = false;
 SAR_dynamic_group_respawn = true;
 
 // time after which AI are respawned if configured (can be overwritten in the static AI calls)
-SAR_respawn_waittime = 90; // default 30 seconds
+SAR_respawn_waittime = 120; // default 30 seconds
 
 // -----------------------------------------------
 // Timeout values 
 // -----------------------------------------------
 
 // time after which DYNAMIC units and groups despawn after players have left the area/ dynamic grid
-SAR_DESPAWN_TIMEOUT = 240; // 2 minutes
+SAR_DESPAWN_TIMEOUT = 480; // 2 minutes
 
 // time after which dead AI bodies are deleted 
 SAR_DELETE_TIMEOUT = 1200; // 2 minutes
@@ -154,13 +154,13 @@ SAR_DELETE_TIMEOUT = 1200; // 2 minutes
 SAR_DETECT_HOSTILE = 200;
 
 // the max range in meters within AI is detecting player bandits from a vehicle, e.g. heli or land vehicle and makes them hostile - the bigger this value, the more CPU needed
-SAR_DETECT_HOSTILE_FROM_VEHICLE = 400;
+SAR_DETECT_HOSTILE_FROM_VEHICLE = 500;
 
 // the interval in seconds that an AI scans for new hostiles. The lower this value, the more accurate, but your server will see an impact. Recommended value: 15 
-SAR_DETECT_INTERVAL = 25;
+SAR_DETECT_INTERVAL = 15;
 
 // the interval in seconds that an AI scans for new hostiles from WITHIN a vehicle. The lower this value, the more accurate, but your server will see an impact. Recommended value: 5 
-SAR_DETECT_FROM_VEHICLE_INTERVAL = 15;
+SAR_DETECT_FROM_VEHICLE_INTERVAL = 5;
 
 // the interval in seconds after that AI and AI in vehicles get new ammo and new fuel if needed
 SAR_REAMMO_INTERVAL = 30;
@@ -211,7 +211,7 @@ KRON_UPS_ambushdist = 100;
 KRON_UPS_Cycle = 10; //org 20 , try to adjust for server performance
 
 //Time that leader waits until doing another movement, this time reduced dynamically under fire, and on new targets
-KRON_UPS_react = 180;
+KRON_UPS_react = 60;
 
 //Min time to wait for doing another reaction
 KRON_UPS_minreact = 30; // org 30
@@ -223,7 +223,7 @@ KRON_UPS_maxwaiting = 60;
 KRON_UPS_wp_maxwaiting = 120;
 
 // how long AI units should be in alert mode after initially spotting an enemy
-KRON_UPS_alerttime = 120;
+KRON_UPS_alerttime = 90;
 
 // how close unit has to be to target to generate a new one target or to enter stealth mode
 KRON_UPS_closeenough = 100; // if you have vast plain areas, increase this to sth around 150-300 
@@ -239,8 +239,8 @@ KRON_UPS_comradio = 2;
 // If your destination point is further than KRON_UPS_searchVehicledist, AI will try to find a vehicle to go there.
 KRON_UPS_searchVehicledist = 600; // 700, 900  
 
-//Sides that are enemies of resistance // DO NOT CHANGE THIS
-KRON_UPS_Res_enemy = [east];
+//Sides that are enemies of resistance // DO NOT CHANGE THIS default east
+KRON_UPS_Res_enemy = [west];
 
 // knowsAbout 0 - 4 to add this enemy to the  "target list" (1-4) the higher number the less detect ability (original in 5.0.7 was 0.5)
 // it does not mean the AI will not shoot at you. This means: what must be KNOWN about you to allow the AI to share that information
@@ -254,7 +254,7 @@ KRON_UPS_Res_enemy = [east];
 //
 //                      2.5 -> easy
 //
-R_knowsAboutEnemy = 0.1;
+R_knowsAboutEnemy = 1.0;
 
 //
 // ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

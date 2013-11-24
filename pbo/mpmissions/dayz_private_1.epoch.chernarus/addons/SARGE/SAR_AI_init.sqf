@@ -91,15 +91,15 @@ createCenter resistance;
 
 // unfriendly AI bandits
 EAST setFriend [WEST, 0]; 
-EAST setFriend [RESISTANCE, 0];
+EAST setFriend [RESISTANCE, 1];
 
 // Players 
 WEST setFriend [EAST, 0];
-WEST setFriend [RESISTANCE, 1];
+WEST setFriend [RESISTANCE, 0];
 
 // friendly AI 
-RESISTANCE setFriend [EAST, 0];
-RESISTANCE setFriend [WEST, 1];
+RESISTANCE setFriend [EAST, 1];
+RESISTANCE setFriend [WEST, 0];
 
 SAR_AI_friendly_side = resistance;
 SAR_AI_unfriendly_side = east;

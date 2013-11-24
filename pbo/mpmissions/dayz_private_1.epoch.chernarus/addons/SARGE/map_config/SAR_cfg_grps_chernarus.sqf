@@ -69,50 +69,50 @@ if (SAR_dynamic_spawning) then {
 
     diag_log format["SAR_AI: Dynamic spawning definition / adjustments started"];
      
-    // Kamenka, 0 bandit groups, 1 soldier groups, 2 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
-    [["max_grps","rnd_grps","max_p_grp"],[[0,1,2],[0,100,100],[0,2,1]],"SAR_area_0_0"] call SAR_AI_mon_upd; 
+    // Kamenka, 1 bandit groups, 1 soldier groups, 2 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
+    [["max_grps","rnd_grps","max_p_grp"],[[1,1,2],[100,100,100],[5,2,1]],"SAR_area_0_0"] call SAR_AI_mon_upd; 
 
-    // Balota, 1 bandit groups, 0 soldier groups, 2 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
-    [["max_grps","rnd_grps","max_p_grp"],[[1,0,2],[80,0,80],[2,0,3]],"SAR_area_1_0"] call SAR_AI_mon_upd; 
+    // Balota, 1 bandit groups, 1 soldier groups, 2 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
+    [["max_grps","rnd_grps","max_p_grp"],[[1,1,2],[80,100,80],[2,5,3]],"SAR_area_1_0"] call SAR_AI_mon_upd; 
 
-    // Cherno, 2 bandit groups, 0 soldier groups, 3 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
-    [["max_grps","rnd_grps","max_p_grp"],[[2,0,3],[75,0,75],[4,0,4]],"SAR_area_2_0"] call SAR_AI_mon_upd; 
+    // Cherno, 2 bandit groups, 4 soldier groups, 3 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
+    [["max_grps","rnd_grps","max_p_grp"],[[2,4,3],[75,75,75],[4,4,4]],"SAR_area_2_0"] call SAR_AI_mon_upd; 
 
-    // Prido, 1 bandit groups, 0 soldier groups, 3 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
-    [["max_grps","rnd_grps","max_p_grp"],[[1,0,3],[50,0,50],[4,0,2]],"SAR_area_3_0"] call SAR_AI_mon_upd; 
+    // Prido, 1 bandit groups, 1 soldier groups, 3 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
+    [["max_grps","rnd_grps","max_p_grp"],[[1,1,3],[50,25,50],[4,3,2]],"SAR_area_3_0"] call SAR_AI_mon_upd; 
 
-    // Elektro, 2 bandit groups, 0 soldier groups, 3 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
-    [["max_grps","rnd_grps","max_p_grp"],[[2,0,3],[50,0,50],[4,0,4]],"SAR_area_4_0"] call SAR_AI_mon_upd; 
+    // Elektro, 2 bandit groups, 4 soldier groups, 3 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
+    [["max_grps","rnd_grps","max_p_grp"],[[2,4,3],[50,35,50],[4,4,4]],"SAR_area_4_0"] call SAR_AI_mon_upd; 
 
-    // Kamyshovo, 0 bandit groups, 0 soldier groups, 1 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
-    [["max_grps","rnd_grps","max_p_grp"],[[0,0,1],[0,0,80],[0,0,3]],"SAR_area_5_0"] call SAR_AI_mon_upd; 
+    // Kamyshovo, 2 bandit groups, 1 soldier groups, 1 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
+    [["max_grps","rnd_grps","max_p_grp"],[[2,1,1],[65,75,80],[5,8,3]],"SAR_area_5_0"] call SAR_AI_mon_upd; 
 
-    // Tulga, 0 bandit groups, 0 soldier groups, 1 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
-    [["max_grps","rnd_grps","max_p_grp"],[[0,0,1],[0,0,80],[0,0,3]],"SAR_area_5_1"] call SAR_AI_mon_upd; 
+    // Tulga, 1 bandit groups, 1 soldier groups, 1 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
+    [["max_grps","rnd_grps","max_p_grp"],[[1,1,1],[75,65,80],[7,5,3]],"SAR_area_5_1"] call SAR_AI_mon_upd; 
 
     // Solni, 1 bandit groups, 0 soldier groups, 0 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
     [["max_grps","rnd_grps","max_p_grp"],[[1,0,0],[80,0,0],[2,0,0]],"SAR_area_5_2"] call SAR_AI_mon_upd; 
 
-    // Berezino, 0 bandit groups, 0 soldier groups, 3 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
-    [["max_grps","rnd_grps","max_p_grp"],[[0,0,3],[0,0,75],[0,0,3]],"SAR_area_5_3"] call SAR_AI_mon_upd; 
+    // Berezino, 2 bandit groups, 4 soldier groups, 3 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
+    [["max_grps","rnd_grps","max_p_grp"],[[2,4,3],[65,55,75],[2,2,3]],"SAR_area_5_3"] call SAR_AI_mon_upd; 
 
     // Khelm, 1 bandit groups, 0 soldier groups, 1 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
     [["max_grps","rnd_grps","max_p_grp"],[[1,0,1],[75,0,75],[3,0,3]],"SAR_area_5_4"] call SAR_AI_mon_upd; 
 
-    // NEAF, 0 bandit groups, 3 soldier groups, 1 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
-    [["max_grps","rnd_grps","max_p_grp"],[[0,3,1],[0,50,75],[0,2,4]],"SAR_area_5_5"] call SAR_AI_mon_upd; 
+    // NEAF, 3 bandit groups, 3 soldier groups, 1 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
+    [["max_grps","rnd_grps","max_p_grp"],[[3,3,1],[65,50,75],[3,2,4]],"SAR_area_5_5"] call SAR_AI_mon_upd; 
 
-    // NWAF, 0 bandit groups, 2 soldier groups, 1 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
-    [["max_grps","rnd_grps","max_p_grp"],[[0,2,1],[0,50,75],[0,2,4]],"SAR_area_1_4"] call SAR_AI_mon_upd; 
+    // NWAF, 4 bandit groups, 2 soldier groups, 1 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
+    [["max_grps","rnd_grps","max_p_grp"],[[4,2,1],[55,50,75],[4,2,4]],"SAR_area_1_4"] call SAR_AI_mon_upd; 
 
-    // Stary, 3 bandit groups, 0 soldier groups, 3 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
-    [["max_grps","rnd_grps","max_p_grp"],[[3,0,3],[50,0,50],[3,0,3]],"SAR_area_2_2"] call SAR_AI_mon_upd; 
+    // Stary, 3 bandit groups, 2 soldier groups, 3 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
+    [["max_grps","rnd_grps","max_p_grp"],[[3,2,3],[50,75,50],[3,4,3]],"SAR_area_2_2"] call SAR_AI_mon_upd; 
 
-    // Devils Castle, 2 bandit groups, 0 soldier groups, 0 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
-    [["max_grps","rnd_grps","max_p_grp"],[[2,0,0],[75,0,0],[3,0,0]],"SAR_area_2_4"] call SAR_AI_mon_upd; 
+    // Devils Castle, 2 bandit groups, 1 soldier groups, 1 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
+    [["max_grps","rnd_grps","max_p_grp"],[[2,1,1],[75,0,0],[3,2,2]],"SAR_area_2_4"] call SAR_AI_mon_upd; 
 
-    // Skalka, 1 bandit groups, 0 soldier groups, 0 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
-    [["max_grps","rnd_grps","max_p_grp"],[[1,0,0],[75,0,0],[3,0,0]],"SAR_area_0_5"] call SAR_AI_mon_upd; 
+    // Skalka, 1 bandit groups, 2 soldier groups, 1 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
+    [["max_grps","rnd_grps","max_p_grp"],[[1,2,1],[75,55,65],[3,3,3]],"SAR_area_0_5"] call SAR_AI_mon_upd; 
 
     // Petrovka1, 2 bandit groups, 0 soldier groups, 0 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
     [["max_grps","rnd_grps","max_p_grp"],[[2,0,0],[75,0,0],[3,0,0]],"SAR_area_1_5"] call SAR_AI_mon_upd; 
@@ -308,25 +308,25 @@ diag_log format["SAR_AI: Static Spawning for Helicopter patrols started"];
 //
 
  //Heli Patrol NWAF
-[SAR_marker_helipatrol_nwaf,3,true,1800] call SAR_AI_heli;
+[SAR_marker_helipatrol_nwaf,1,true,1800] call SAR_AI_heli;
 
 //Heli Patrol NEAF
 [SAR_marker_helipatrol_neaf,1,true,1800] call SAR_AI_heli;
 
 // Heli patrol south coast
 [SAR_marker_helipatrol_southcoast,1,true,1800] call SAR_AI_heli;
-[SAR_marker_helipatrol_southcoast,3,true,1800] call SAR_AI_heli;
+[SAR_marker_helipatrol_southcoast,1,true,1800] call SAR_AI_heli;
 
 // heli patrol east coast
 [SAR_marker_helipatrol_eastcoast,1,true,1800] call SAR_AI_heli;
-[SAR_marker_helipatrol_eastcoast,3,true,1800] call SAR_AI_heli;
+[SAR_marker_helipatrol_eastcoast,1,true,1800] call SAR_AI_heli;
 
 
 // example war scenario in the northwest. Comment OUT after having had a look at it!
+//[SAR_marker_DEBUG_veh,1,true,1800] call SAR_AI_heli;
+//[SAR_marker_DEBUG_veh,1,true,1800] call SAR_AI_heli;
 [SAR_marker_DEBUG_veh,1,true,1800] call SAR_AI_heli;
 [SAR_marker_DEBUG_veh,1,true,1800] call SAR_AI_heli;
-[SAR_marker_DEBUG_veh,3,true,1800] call SAR_AI_heli;
-[SAR_marker_DEBUG_veh,3,true,1800] call SAR_AI_heli;
 
 
 diag_log format["SAR_AI: Static Spawning for Helicopter patrols finished"];
