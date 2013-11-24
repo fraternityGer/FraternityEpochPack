@@ -11,6 +11,8 @@ Features
 * Selfbloodbag
 * R3F Logistic (only towing)
 * Color Effects
+* Service Point
+
 
 Map Updates
 -------------------
@@ -29,5 +31,6 @@ Credits
 * [Selfbloodbag] Krixes - http://opendayz.net/threads/krixes-self-bloodbag-script.12288/
 * [R3F Logistic] R3F - http://www.armaholic.com/page.php?id=9285
 * [Color Effects] - http://opendayz.net/threads/collection-of-cool-colour-corrections.9267/
+* [Service Point] Axe Cop - http://dayzepoch.com/forum/index.php?/topic/3935-release-vehicle-service-point-refuel-repair-rearm-script/
 
 
