@@ -137,15 +137,15 @@ if (!isDedicated) then {
 [] ExecVM "fraternity\mapUpdates\LieuxditPenduAto.sqf";													// Wreck Sites
 [] ExecVM "fraternity\mapUpdates\castle.sqf";															// The Dead Castle
 [] ExecVM "fraternity\mapUpdates\devilscastle.sqf";														// Devils Castle Base by AVendettaForYou.
-[] ExecVM "fraternity\mapUpdates\poi.sqf";														        // Point of interesst
+[] ExecVM "fraternity\mapUpdates\poi.sqf";														        // Point of interest
 [] ExecVM "fraternity\mapUpdates\devfish_camptents.sqf";												// Versteckte Lager
 [] ExecVM "fraternity\mapUpdates\sector_ubf.sqf";														// Sektor UBF
 [] ExecVM "fraternity\mapUpdates\camp.sqf";														        // Camp
-[] ExecVM "fraternity\mapUpdates\SectorBLittle.sqf";														        // Sector B little
-[] execVM "fraternity\mapUpdates\sectorfng_init.sqf"; //Sectorfng
+[] execVM "fraternity\mapUpdates\sectorfng_init.sqf"; 													// SectorFNG
+[] execVM "fraternity\mapUpdates\tikhayaCity.sqf";														// Tikhaya City
 
 //
-// Thanks to AVendettaForYou 
+// Thanks to AVendettaForYou, Poncho 
 ///////////////////////////////////////////////////////////////////////////////////////////
 
 
