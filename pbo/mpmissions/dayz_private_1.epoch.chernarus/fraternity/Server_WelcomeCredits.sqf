@@ -21,7 +21,7 @@ waituntil {!isnull (finddisplay 46)}; // Makes the script start when player is i
 sleep 15; // wait 15 before the welcome message starts (in seconds)
  
 _role1 = "Have fun with ";
-_role1names = ["DayZ Epoch 1.0.2.5 and Fraternity Pack V0.3 [Alpha]"];
+_role1names = ["DayZ Epoch 1.0.3 and Fraternity Pack V0.3 [Alpha]"];
 _role2 = "Server Admins";
 _role2names = ["JimTim", "Scoprion3de","M31d0"];
 _role3 = "Website";

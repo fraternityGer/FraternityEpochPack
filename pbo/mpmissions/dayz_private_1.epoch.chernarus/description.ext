@@ -7,9 +7,11 @@ OnLoadMissionTime = False;
 disabledAI = true;
 disableChannels[]={0,2,6};
 enableItemsDropping = 0;
+
 #include "R3F_Realism\R3F_Weight\R3F_CfgWeight.h"
 #include "addons\SARGE\SAR_define.hpp"
 #include "R3F_ARTY_AND_LOG\desc_include.h"
+
 briefing = 0;
 debriefing = 0;
 
@@ -164,7 +166,6 @@ class DayZ_loadingScreen
 	};
 };
 
-// DayZ Watermark
 class RscTitles {
 	class wm_disp {
 		idd = -1;
@@ -200,3 +201,4 @@ class RscTitles {
 		};
 	};
 };
+
