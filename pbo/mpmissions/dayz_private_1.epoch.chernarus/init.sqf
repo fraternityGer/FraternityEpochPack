@@ -91,8 +91,6 @@ if (!isDedicated) then {
 	
 	_nul = [] execVM "camera\loginCamera.sqf";   
 	
-	_void = [] execVM "R3F_Realism\R3F_Realism_Init.sqf";
-	
 	[] execVM "fraternity\Server_WelcomeCredits.sqf";	
 
 	//Repair Service Station

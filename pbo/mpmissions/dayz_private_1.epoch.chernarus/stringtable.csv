@@ -9,6 +9,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 *****************************************************************************/
 
 Language, English, French
-
-#include "R3F_Realism\R3F_stringtable.csv"
-
