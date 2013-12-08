@@ -30,7 +30,8 @@ MaxHeliCrashes= 5; // Default = 5
 MaxVehicleLimit = 300; // Default = 50
 MaxDynamicDebris = 500; // Default = 100
 dayz_MapArea = 14000; // Default = 10000
-dayz_maxLocalZombies = 30; // Default = 30 
+dayz_maxLocalZombies = 30; // Default = 30
+DZE_BuildingLimit = 200; //BuildingLimit
 
 DZE_DeathMsgTitleText =true;
 dayz_paraSpawn = false;
