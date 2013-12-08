@@ -1,0 +1,176 @@
+07.10.2013 18:36:10: Ethaden (109.192.99.204:2304) 86101fc8969ae0e37acdecec9c48424c - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+07.10.2013 18:36:17: Ethaden (109.192.99.204:2304) 86101fc8969ae0e37acdecec9c48424c - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+14.10.2013 23:08:46: 2K Pro (79.221.160.190:2304) f5cc1672b6e6bb0b6f19f924d6560ca4 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+25.10.2013 09:16:45: Barsalt (5.28.96.64:2304) c9e143ca66b54c8c5264e16ed2903020 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+25.10.2013 09:16:46: Barsalt (5.28.96.64:2304) c9e143ca66b54c8c5264e16ed2903020 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+25.10.2013 09:16:51: Barsalt (5.28.96.64:2304) c9e143ca66b54c8c5264e16ed2903020 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+06.11.2013 11:08:20: JimTim (87.158.56.200:2304) 0105b3a7c43ff306533cab315fca4f46 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+06.11.2013 11:08:25: JimTim (87.158.56.200:2304) 0105b3a7c43ff306533cab315fca4f46 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+06.11.2013 11:16:49: JimTim (87.158.56.200:2304) 0105b3a7c43ff306533cab315fca4f46 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+06.11.2013 11:17:16: JimTim (87.158.56.200:2304) 0105b3a7c43ff306533cab315fca4f46 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+06.11.2013 11:17:33: JimTim (87.158.56.200:2304) 0105b3a7c43ff306533cab315fca4f46 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+13.11.2013 14:09:25: Cerber11 (88.201.205.171:2304) a2112983468cd328bfdf489ac1f6f82d - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+14.11.2013 10:06:34: Finbarr (95.113.147.64:2304) 8845a6e2eebeb494f19a04e14037f372 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+14.11.2013 10:09:13: Finbarr (95.113.147.64:2304) 8845a6e2eebeb494f19a04e14037f372 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+14.11.2013 10:10:02: Finbarr (95.113.147.64:2304) 8845a6e2eebeb494f19a04e14037f372 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+14.11.2013 10:11:28: Finbarr (95.113.147.64:2304) 8845a6e2eebeb494f19a04e14037f372 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+14.11.2013 10:12:33: Finbarr (95.113.147.64:2304) 8845a6e2eebeb494f19a04e14037f372 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+14.11.2013 10:38:31: Finbarr (95.113.147.64:2304) 8845a6e2eebeb494f19a04e14037f372 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+14.11.2013 10:38:42: Finbarr (95.113.147.64:2304) 8845a6e2eebeb494f19a04e14037f372 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+14.11.2013 10:39:22: Finbarr (95.113.147.64:2304) 8845a6e2eebeb494f19a04e14037f372 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+30.11.2013 11:53:41: DNIWE (188.187.50.174:2304) d99824e2ac0064fca03196dca75a0515 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+30.11.2013 11:53:46: DNIWE (188.187.50.174:2304) d99824e2ac0064fca03196dca75a0515 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
