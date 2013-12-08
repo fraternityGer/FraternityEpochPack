@@ -15,4 +15,4 @@ _element = SMarray2 select _num;
 _Earray = [_element];
 };
 
-[] execVM format ["\z\addons\dayz_server\missions\minor\%1.sqf",_element];
+[] execVM format ["\z\addons\dayz_server\MissionSystem\minor\%1.sqf",_element];

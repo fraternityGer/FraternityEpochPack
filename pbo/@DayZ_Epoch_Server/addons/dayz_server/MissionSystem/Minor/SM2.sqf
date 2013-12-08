@@ -1,7 +1,7 @@
 //Medical Outpost by lazyink (Full credit for code to TheSzerdi & TAW_Tonic)
 
 private ["_coords","_wait","_MainMarker75"];
-[] execVM "\z\addons\dayz_server\Missions\SMGoMinor.sqf";
+[] execVM "\z\addons\dayz_server\MissionSystem\SMGoMinor.sqf";
 WaitUntil {MissionGoMinor == 1};
 
 
@@ -31,21 +31,21 @@ _baserunover6 setVariable ["Sarge",1,true];
 
 
 _crate = createVehicle ["USVehicleBox",[(_coords select 0) - 3, _coords select 1,0],[], 0, "CAN_COLLIDE"];
-[_crate] execVM "\z\addons\dayz_server\missions\misc\fillBoxesM.sqf";
+[_crate] execVM "\z\addons\dayz_server\MissionSystem\misc\fillBoxesM.sqf";
 _crate setVariable ["Sarge",1,true];
 
 _crate2 = createVehicle ["USLaunchersBox",[(_coords select 0) - 8, _coords select 1,0],[], 0, "CAN_COLLIDE"];
-[_crate2] execVM "\z\addons\dayz_server\missions\misc\fillBoxesS.sqf";
+[_crate2] execVM "\z\addons\dayz_server\MissionSystem\misc\fillBoxesS.sqf";
 _crate2 setVariable ["Sarge",1,true];
 
 
-[[(_coords select 0) - 20, (_coords select 1) - 15,0],40,4,2,0] execVM "\z\addons\dayz_server\missions\add_unit_server2.sqf";//AI Guards
+[[(_coords select 0) - 20, (_coords select 1) - 15,0],40,4,2,0] execVM "\z\addons\dayz_server\MissionSystem\add_unit_server2.sqf";//AI Guards
 sleep 3;
-[[(_coords select 0) + 10, (_coords select 1) + 15,0],40,4,2,0] execVM "\z\addons\dayz_server\missions\add_unit_server2.sqf";//AI Guards
+[[(_coords select 0) + 10, (_coords select 1) + 15,0],40,4,2,0] execVM "\z\addons\dayz_server\MissionSystem\add_unit_server2.sqf";//AI Guards
 sleep 3;
-[[(_coords select 0) - 10, (_coords select 1) - 15,0],40,4,2,0] execVM "\z\addons\dayz_server\missions\add_unit_server2.sqf";//AI Guards
+[[(_coords select 0) - 10, (_coords select 1) - 15,0],40,4,2,0] execVM "\z\addons\dayz_server\MissionSystem\add_unit_server2.sqf";//AI Guards
 sleep 3;
-[[(_coords select 0) + 20, (_coords select 1) + 15,0],40,4,2,0] execVM "\z\addons\dayz_server\missions\add_unit_server2.sqf";//AI Guards
+[[(_coords select 0) + 20, (_coords select 1) + 15,0],40,4,2,0] execVM "\z\addons\dayz_server\MissionSystem\add_unit_server2.sqf";//AI Guards
 sleep 3;
 
 
@@ -61,4 +61,4 @@ publicVariable "MCoords";
 
 
 SM1 = 1;
-[0] execVM "\z\addons\dayz_server\missions\minor\SMfinder.sqf";
+[0] execVM "\z\addons\dayz_server\MissionSystem\minor\SMfinder.sqf";

@@ -1,7 +1,7 @@
 //Bandit Hunting Party by lazyink (Full credit to TheSzerdi & TAW_Tonic for the code)
 private ["_coords","_wait","_MainMarker75"];
 
-[] execVM "\z\addons\dayz_server\Missions\SMGoMinor.sqf";
+[] execVM "\z\addons\dayz_server\MissionSystem\SMGoMinor.sqf";
 WaitUntil {MissionGoMinor == 1};
 
 
@@ -16,11 +16,11 @@ publicVariable "MCoords";
 _hummer = createVehicle ["UAZ_Unarmed_UN_EP1",[(_coords select 0) + 10, (_coords select 1) - 5,0],[], 0, "CAN_COLLIDE"];
 _hummer setVariable ["Sarge",1,true];
 
-[_coords,80,4,2,1] execVM "\z\addons\dayz_server\missions\add_unit_server2.sqf";//AI Guards
+[_coords,80,4,2,1] execVM "\z\addons\dayz_server\MissionSystem\add_unit_server2.sqf";//AI Guards
 sleep 5;
-[_coords,80,4,2,1] execVM "\z\addons\dayz_server\missions\add_unit_server2.sqf";//AI Guards
+[_coords,80,4,2,1] execVM "\z\addons\dayz_server\MissionSystem\add_unit_server2.sqf";//AI Guards
 sleep 5;
-[_coords,80,4,2,1] execVM "\z\addons\dayz_server\missions\add_unit_server2.sqf";//AI Guards
+[_coords,80,4,2,1] execVM "\z\addons\dayz_server\MissionSystem\add_unit_server2.sqf";//AI Guards
 sleep 1;
 
 waitUntil{({alive _x} count (units SniperTeam)) < 1};
@@ -33,4 +33,4 @@ MCoords = 0;
 publicVariable "MCoords";
 
 SM1 = 1;
-[0] execVM "\z\addons\dayz_server\missions\minor\SMfinder.sqf";
+[0] execVM "\z\addons\dayz_server\MissionSystem\minor\SMfinder.sqf";
