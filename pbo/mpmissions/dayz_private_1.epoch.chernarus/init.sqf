@@ -10,9 +10,9 @@ enableSaving [false, false];
 
 //REALLY IMPORTANT VALUES
 dayZ_instance =	11;					//The instance
-dayZ_serverName = "FY"; // Servername (country code + server number)
 dayzHiveRequest = [];
 initialized = false;
+dayZ_serverName = "FY";
 dayz_previousID = 0;
 PVDZE_plr_LoginRecord = nil;
 
