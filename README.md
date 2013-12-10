@@ -39,5 +39,11 @@ Credits
 * [Quarantine Zone Chernogorsk] - Poncho - http://opendayz.net/threads/map-addition-chernogorsk-quarantine-zone.14634/
 * [Dayz Missions] lazyink - https://github.com/lazyink/DayZ-Missions
 * [Epoch loot stuff] MassAsster - http://dayzepoch.com/forum/index.php?/topic/993-dayz-mission-system-randomize-loot/
- 
+
+Organization
+-------------------
+
+If you have bugs or improvements, then please create a [ticket](https://github.com/fraternityGer/FraternityEpochPack/issues/ "tickets"). I'm going to look at the tickets and then process them.
+
+On [trello.com](https://trello.com/b/cMIl30nK/fraternityepochpack "trello.com") you can watch the progress and what tickets are being processed, or which have been accepted.
 
