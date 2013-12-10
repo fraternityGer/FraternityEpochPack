@@ -809,7 +809,7 @@ server_spawnCleanLoot = {
 	_delQty = 0;
 	_dateNow = (DateToNumber date);
 	{
-		_keep = _x getVariable ["permaLoot",false];
+		_keep = (_x getVariable ["permaLoot",false]) || (_x getVariable ["Sarge",0] == 1) ;
 		if (!_keep) then {
 			_created = _x getVariable ["created",-0.1];
 			if (_created == -0.1) then {
