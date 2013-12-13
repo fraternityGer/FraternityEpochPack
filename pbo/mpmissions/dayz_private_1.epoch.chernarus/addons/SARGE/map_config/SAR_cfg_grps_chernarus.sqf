@@ -72,16 +72,10 @@ if (SAR_dynamic_spawning) then {
     // Kamenka, 1 bandit groups, 1 soldier groups, 2 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
     [["max_grps","rnd_grps","max_p_grp"],[[1,1,2],[100,100,100],[5,2,1]],"SAR_area_0_0"] call SAR_AI_mon_upd; 
 
-    // Balota, 1 bandit groups, 1 soldier groups, 2 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
-    [["max_grps","rnd_grps","max_p_grp"],[[1,1,2],[80,100,80],[2,5,3]],"SAR_area_1_0"] call SAR_AI_mon_upd; 
-
     // Cherno, 2 bandit groups, 4 soldier groups, 3 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
     [["max_grps","rnd_grps","max_p_grp"],[[2,4,3],[75,75,75],[4,4,4]],"SAR_area_2_0"] call SAR_AI_mon_upd; 
 
-    // Prido, 1 bandit groups, 1 soldier groups, 3 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
-    [["max_grps","rnd_grps","max_p_grp"],[[1,1,3],[50,25,50],[4,3,2]],"SAR_area_3_0"] call SAR_AI_mon_upd; 
-
-    // Elektro, 2 bandit groups, 4 soldier groups, 3 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
+     // Elektro, 2 bandit groups, 4 soldier groups, 3 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
     [["max_grps","rnd_grps","max_p_grp"],[[2,4,3],[50,35,50],[4,4,4]],"SAR_area_4_0"] call SAR_AI_mon_upd; 
 
     // Kamyshovo, 2 bandit groups, 1 soldier groups, 1 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
@@ -114,20 +108,13 @@ if (SAR_dynamic_spawning) then {
     // Skalka, 1 bandit groups, 2 soldier groups, 1 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
     [["max_grps","rnd_grps","max_p_grp"],[[1,2,1],[75,55,65],[3,3,3]],"SAR_area_0_5"] call SAR_AI_mon_upd; 
 
-    // Petrovka1, 2 bandit groups, 0 soldier groups, 0 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
-    [["max_grps","rnd_grps","max_p_grp"],[[2,0,0],[75,0,0],[3,0,0]],"SAR_area_1_5"] call SAR_AI_mon_upd; 
-
-    // Petrovka2, 2 bandit groups, 0 soldier groups, 0 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
+     // Petrovka2, 2 bandit groups, 0 soldier groups, 0 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
     [["max_grps","rnd_grps","max_p_grp"],[[2,0,0],[75,0,0],[3,0,0]],"SAR_area_2_5"] call SAR_AI_mon_upd; 
-
-    // Pobeda, 2 bandit groups, 0 soldier groups, 0 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
-    [["max_grps","rnd_grps","max_p_grp"],[[2,0,0],[75,0,0],[3,0,0]],"SAR_area_3_5"] call SAR_AI_mon_upd; 
 
     // Krasno, 0 bandit groups, 1 soldier groups, 1 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
     [["max_grps","rnd_grps","max_p_grp"],[[0,1,1],[0,75,75],[0,4,2]],"SAR_area_4_5"] call SAR_AI_mon_upd; 
 
-    // test south of lopatino, 1 bandit groups, 0 soldier groups, 0 survivor groups - spawn probability ba,so,su - maximum group members ba,so,su
-    [["max_grps","rnd_grps","max_p_grp"],[[1,0,0],[100,0,0],[6,0,0]],"SAR_area_0_3"] call SAR_AI_mon_upd; 
+    
 
     diag_log format["SAR_AI: Dynamic spawning definition / adjustments finished"];
 
@@ -322,13 +309,6 @@ diag_log format["SAR_AI: Static Spawning for Helicopter patrols started"];
 [SAR_marker_helipatrol_eastcoast,1,true,1800] call SAR_AI_heli;
 
 
-// example war scenario in the northwest. Comment OUT after having had a look at it!
-//[SAR_marker_DEBUG_veh,1,true,1800] call SAR_AI_heli;
-//[SAR_marker_DEBUG_veh,1,true,1800] call SAR_AI_heli;
-[SAR_marker_DEBUG_veh,1,true,1800] call SAR_AI_heli;
-[SAR_marker_DEBUG_veh,1,true,1800] call SAR_AI_heli;
-
-
 diag_log format["SAR_AI: Static Spawning for Helicopter patrols finished"];
 
 //---------------------------------------------------------------------------------
@@ -374,13 +354,6 @@ diag_log format["SAR_AI: Static Spawning for infantry patrols started"];
 //
 
 [SAR_marker_DEBUG_devilscastle,1,0,6,"fortify",true] call SAR_AI;
-
-// example war scenario in the northwest. Comment OUT after having had a look at it!
-[SAR_marker_DEBUG_veh,1,0,9,"patrol",true,1800] call SAR_AI;
-[SAR_marker_DEBUG_veh,2,0,9,"patrol",true,1800] call SAR_AI;
-[SAR_marker_DEBUG_veh,3,0,9,"patrol",true,1800] call SAR_AI;
-[SAR_marker_DEBUG_veh,3,0,9,"patrol",true,1800] call SAR_AI;
-
 
 //Sector FNG Stuff
 [SAR_marker_sectorfng_front,3,0,15,"patrol",true,3600] call SAR_AI;
@@ -444,33 +417,6 @@ diag_log format["SAR_AI: Static Spawning for vehicle patrols started"];
 // define your static vehicle patrols here
 //
 
-// example war scenario in the northwest. Comment OUT after having had a look at it!
-[
-    SAR_marker_DEBUG_veh,                           // Name of the area that the vehicle patrol will spawn in
-    1,                                              // type of group
-    ["LandRover_CZ_EP1","M1030","M1030","LandRover_CZ_EP1"],        // used vehicle
-    [[1,1,1],[0,1,1],[0,1,1],[0,1,1]],                              // Vehicle initial crew
-    true,                                           // if this group should respawn or not
-    10
-] call SAR_AI_land;
-
-[
-    SAR_marker_DEBUG_veh,                   // Name of the area that the vehicle patrol will spawn in
-    3,                                      // type of group
-    ["M1030","M1030","M1030","M1030"],      // used vehicle
-    [[1,1,0],[0,1,1],[0,1,1],[0,1,1]],      // Vehicle initial crew
-    true,                                   // if this group should respawn or not
-    60                                      // waittime until this group will respawn
-] call SAR_AI_land;
-
-[
-    SAR_marker_DEBUG_veh,             // Name of the area that the vehicle patrol will spawn in
-    2,                                  // type of group
-    ["M1030"],                          // used vehicle
-    [[1,1,0]],                          // Vehicle initial crew
-    true,                               // if this group should respawn or not
-    60                                  // waittime until this group will respawn
-] call SAR_AI_land;
 
 diag_log format["SAR_AI: Static Spawning for vehicle patrols finished"];
 // ---- end of configuration area ----

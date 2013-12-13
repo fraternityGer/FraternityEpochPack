@@ -157,10 +157,10 @@ SAR_DETECT_HOSTILE = 200;
 SAR_DETECT_HOSTILE_FROM_VEHICLE = 500;
 
 // the interval in seconds that an AI scans for new hostiles. The lower this value, the more accurate, but your server will see an impact. Recommended value: 15 
-SAR_DETECT_INTERVAL = 15;
+SAR_DETECT_INTERVAL = 20;
 
 // the interval in seconds that an AI scans for new hostiles from WITHIN a vehicle. The lower this value, the more accurate, but your server will see an impact. Recommended value: 5 
-SAR_DETECT_FROM_VEHICLE_INTERVAL = 5;
+SAR_DETECT_FROM_VEHICLE_INTERVAL = 10;
 
 // the interval in seconds after that AI and AI in vehicles get new ammo and new fuel if needed
 SAR_REAMMO_INTERVAL = 30;
