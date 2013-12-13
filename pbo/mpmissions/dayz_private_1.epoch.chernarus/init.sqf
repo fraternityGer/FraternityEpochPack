@@ -36,6 +36,9 @@ DZE_BuildingLimit = 600; //BuildingLimit
 DZE_DeathMsgTitleText =true;
 dayz_paraSpawn = false;
 
+dayz_minpos = -1; 
+dayz_maxpos = 16000;
+
 dayz_sellDistance_vehicle = 10;
 dayz_sellDistance_boat = 30;
 dayz_sellDistance_air = 40;
@@ -90,6 +93,10 @@ if (!isDedicated) then {
 	_id = player addEventHandler ["Respawn", {_id = [] spawn player_death;}];
 	_playerMonitor = 	[] execVM "\z\addons\dayz_code\system\player_monitor.sqf";
 	
+
+	//anti Hack
+	[] execVM "\z\addons\dayz_code\system\antihack.sqf";
+
 	_nul = [] execVM "camera\loginCamera.sqf";   
 	
 	[] execVM "fraternity\Server_WelcomeCredits.sqf";	
@@ -100,17 +107,17 @@ if (!isDedicated) then {
 	
 };
 
-[] ExecVM "fraternity\mapUpdates\villages.sqf";															// Epoch Trader Villages 1.2
-[] ExecVM "fraternity\mapUpdates\buildings.sqf";														// Extra Charnarus Buildings 1.2
-[] ExecVM "fraternity\mapUpdates\Barrage_Dan_BBC.sqf";													// Topolka Dam Military Base
-[] ExecVM "fraternity\mapUpdates\bois1_Dan_BBC.sqf";													// Hidden Killers Ranch
-[] ExecVM "fraternity\mapUpdates\LieuxditPenduAto.sqf";													// Wreck Sites
-[] ExecVM "fraternity\mapUpdates\castle.sqf";															// The Dead Castle
-[] ExecVM "fraternity\mapUpdates\devilscastle.sqf";														// Devils Castle Base by AVendettaForYou.
-[] ExecVM "fraternity\mapUpdates\poi.sqf";														        // Point of interest
-[] ExecVM "fraternity\mapUpdates\devfish_camptents.sqf";												// Versteckte Lager
-[] ExecVM "fraternity\mapUpdates\sector_ubf.sqf";														// Sektor UBF
-[] ExecVM "fraternity\mapUpdates\camp.sqf";														        // Camp
+[] execVM "fraternity\mapUpdates\villages.sqf";															// Epoch Trader Villages 1.2
+[] execVM "fraternity\mapUpdates\buildings.sqf";														// Extra Charnarus Buildings 1.2
+[] execVM "fraternity\mapUpdates\Barrage_Dan_BBC.sqf";													// Topolka Dam Military Base
+[] execVM "fraternity\mapUpdates\bois1_Dan_BBC.sqf";													// Hidden Killers Ranch
+[] execVM "fraternity\mapUpdates\LieuxditPenduAto.sqf";													// Wreck Sites
+[] execVM "fraternity\mapUpdates\castle.sqf";															// The Dead Castle
+[] execVM "fraternity\mapUpdates\devilscastle.sqf";														// Devils Castle Base by AVendettaForYou.
+[] execVM "fraternity\mapUpdates\poi.sqf";														        // Point of interest
+[] execVM "fraternity\mapUpdates\devfish_camptents.sqf";												// Versteckte Lager
+[] execVM "fraternity\mapUpdates\sector_ubf.sqf";														// Sektor UBF
+[] execVM "fraternity\mapUpdates\camp.sqf";														        // Camp
 [] execVM "fraternity\mapUpdates\sectorfng_init.sqf"; 													// SectorFNG
 [] execVM "fraternity\mapUpdates\tikhayaCity.sqf";														// Tikhaya City
 [] execVM "fraternity\mapUpdates\quarantineZoneCherno.sqf";												// Chernogorsk Quarantine Zone
@@ -149,5 +156,8 @@ if (!isNil "server_name") then {
 		((uiNamespace getVariable "wm_disp") displayCtrl 1) ctrlSetText server_name;
 	};
 };
+
+//Start Dynamic Weather
+execVM "\z\addons\dayz_code\external\DynamicWeatherEffects.sqf";
 
 #include "\z\addons\dayz_code\system\BIS_Effects\init.sqf"

@@ -14,6 +14,7 @@ _inVehicle = (_vehicle != player);
 
 _onLadder =		(getNumber (configFile >> "CfgMovesMaleSdr" >> "States" >> (animationState player) >> "onLadder")) == 1;
 _canDo = (!r_drag_sqf and !r_player_unconscious and !_onLadder);
+
 // ------------------------------------------------------------------------Krixes Self Bloodbag Start------------------------------------------------------------------------
 	_mags = magazines player;
 	
@@ -30,20 +31,6 @@ _canDo = (!r_drag_sqf and !r_player_unconscious and !_onLadder);
 		s_player_selfBloodbag = -1;
 	};
 // -------------------------------------------------------------------------Krixes Self Bloodbag End--------------------------------------------------------------------------
-
-// ---------------------------------------Maintain Area Start------------------------------------
-    if (_canDo && (speed player <= 1) && (cursorTarget isKindOf "Plastic_Pole_EP1_DZ")) then {
-    if (s_player_maintain_area < 0) then {
-    	s_player_maintain_area = player addAction ["<t color=""#ffffff"">Maintain Area</t>", "\z\addons\dayz_code\actions\maintain_area.sqf", "maintain", 5, false];
-    	s_player_maintain_area_preview = player addAction ["<t color=""#ccffffff"">Maintain Area Preview</t>", "\z\addons\dayz_code\actions\maintain_area.sqf", "preview", 5, false];
-    };
-    } else {
-    	player removeAction s_player_maintain_area;
-    	s_player_maintain_area = -1;
-    	player removeAction s_player_maintain_area_preview;
-    	s_player_maintain_area_preview = -1;
-    };
-// ---------------------------------------Maintain Area End------------------------------------
 
 _nearLight = 	nearestObject [player,"LitObject"];
 _canPickLight = false;
@@ -220,6 +207,18 @@ if (!isNull cursorTarget and !_inVehicle and !_isPZombie and (player distance cu
 	_player_deleteBuild = false;
 	_player_lockUnlock_crtl = false;
 
+	 if (_canDo && (speed player <= 1) && (_cursorTarget isKindOf "Plastic_Pole_EP1_DZ")) then {
+		 if (s_player_maintain_area < 0) then {
+		  	s_player_maintain_area = player addAction ["<t color=""#ffffff"">Maintain Area</t>", "\z\addons\dayz_code\actions\maintain_area.sqf", "maintain", 5, false];
+		 	s_player_maintain_area_preview = player addAction ["<t color=""#ccffffff"">Maintain Area Preview</t>", "\z\addons\dayz_code\actions\maintain_area.sqf", "preview", 5, false];
+		 };
+	 } else {
+    		player removeAction s_player_maintain_area;
+    		s_player_maintain_area = -1;
+    		player removeAction s_player_maintain_area_preview;
+    		s_player_maintain_area_preview = -1;
+	 };
+
 	// CURSOR TARGET ALIVE
 	if(_isAlive) then {
 		
@@ -233,6 +232,7 @@ if (!isNull cursorTarget and !_inVehicle and !_isPZombie and (player distance cu
 		//Allow owners to delete modulars
                 if(_isModular and (dayz_characterID == _ownerID)) then {
                         if(_hasToolbox and "ItemCrowbar" in _itemsPlayer) then {
+                        	if(_cursorTarget in DZE_DoorsLocked) exitwith  {cutText ["You must remove the lock to delete this item!", "PLAIN DOWN"]; };
                                 _player_deleteBuild = true;
                         };
                 };
@@ -365,7 +365,7 @@ if (!isNull cursorTarget and !_inVehicle and !_isPZombie and (player distance cu
 		// Study body
 		if (_isMan and !_isZombie and !_isAnimal) then {
 			_player_studybody = true;
-		};
+		}
 
 		//bury human
 		if (!_isZombie and !_isAnimal and _hasETool and _isMan and _canDo) then {
@@ -376,7 +376,6 @@ if (!isNull cursorTarget and !_inVehicle and !_isPZombie and (player distance cu
        		player removeAction s_player_bury_human;
         	s_player_bury_human = -1;
     	};
-
 	} else {
 		// unit alive
 
