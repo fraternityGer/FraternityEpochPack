@@ -4,6 +4,16 @@ Fraternity Epoch Pack
 Changelog
 -------------------
 
+v0.5 [Alpha]
+
+* [add] 		Zelenogorsk Military Encampment
+* [add]			animated heli crashes
+* [add]			Checkpoint between cherno and electro
+* [change]		DeathMessages
+* 
+
+
+-------------------
 v0.4 [Alpha]
 
 * [fixed] 		Trader menu is not showing

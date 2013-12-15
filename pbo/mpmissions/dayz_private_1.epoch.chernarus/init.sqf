@@ -124,6 +124,7 @@ if (!isDedicated) then {
 [] execVM "fraternity\mapUpdates\tikhayaCity.sqf";														// Tikhaya City
 [] execVM "fraternity\mapUpdates\quarantineZoneCherno.sqf";												// Chernogorsk Quarantine Zone
 [] execVM "fraternity\mapUpdates\checkpoint.sqf";														// Checkpoint between Cherno and Electro
+[] execVM "fraternity\mapUpdates\zeleno.sqf";															// Zelenogorsk Military Encampment
 //
 // Thanks to AVendettaForYou, Poncho 
 ///////////////////////////////////////////////////////////////////////////////////////////
