@@ -1,8 +1,20 @@
 Fraternity Epoch Pack
 ===================
 
+Changelog
+-------------------
 
-Features
+v0.4 [Alpha]
+
+* [fixed] 		Trader menu is not showing
+* [fixed] 		Cars can not be unlocked
+* [fixed] 		Update object is not executed correctly
+* [performance] Sarge AI has been adjusted. Some scenarios have been removed.
+* [fixed] 		Mission boxes disappear
+* [change] 		Epoch 1.0.3 to Epoch 1.0.3.1
+* [change] 		Welcome credit Script 1.15 to 1.3.4
+
+
 -------------------
 
 * Sarge AI
