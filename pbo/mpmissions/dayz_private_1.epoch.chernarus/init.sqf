@@ -32,6 +32,8 @@ MaxDynamicDebris = 500; // Default = 100
 dayz_MapArea = 14000; // Default = 10000
 dayz_maxLocalZombies = 30; // Default = 30
 DZE_BuildingLimit = 600; //BuildingLimit
+DZE_DeathMsgGlobal = true;
+DZE_DeathMsgTitleText = true;
 
 DZE_DeathMsgTitleText =true;
 dayz_paraSpawn = false;
