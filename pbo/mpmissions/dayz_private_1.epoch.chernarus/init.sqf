@@ -115,16 +115,16 @@ if (!isDedicated) then {
 [] execVM "fraternity\mapUpdates\bois1_Dan_BBC.sqf";													// Hidden Killers Ranch
 [] execVM "fraternity\mapUpdates\LieuxditPenduAto.sqf";													// Wreck Sites
 [] execVM "fraternity\mapUpdates\castle.sqf";															// The Dead Castle
-//[] execVM "fraternity\mapUpdates\devilscastle.sqf";														// Devils Castle Base by AVendettaForYou.
+[] execVM "fraternity\mapUpdates\devilscastle.sqf";														// Devils Castle Base by AVendettaForYou.
 [] execVM "fraternity\mapUpdates\poi.sqf";														        // Point of interest
 [] execVM "fraternity\mapUpdates\devfish_camptents.sqf";												// Versteckte Lager
 [] execVM "fraternity\mapUpdates\sector_ubf.sqf";														// Sektor UBF
 [] execVM "fraternity\mapUpdates\camp.sqf";														        // Camp
-[] execVM "fraternity\mapUpdates\sectorfng_init.sqf"; 													// SectorFNG
+//[] execVM "fraternity\mapUpdates\sectorfng_init.sqf"; 													// SectorFNG
 //[] execVM "fraternity\mapUpdates\tikhayaCity.sqf";														// Tikhaya City
-//[] execVM "fraternity\mapUpdates\quarantineZoneCherno.sqf";												// Chernogorsk Quarantine Zone
-//[] execVM "fraternity\mapUpdates\checkpoint.sqf";														// Checkpoint between Cherno and Electro
-//[] execVM "fraternity\mapUpdates\zeleno.sqf";															// Zelenogorsk Military Encampment
+[] execVM "fraternity\mapUpdates\quarantineZoneCherno.sqf";												// Chernogorsk Quarantine Zone
+[] execVM "fraternity\mapUpdates\checkpoint.sqf";														// Checkpoint between Cherno and Electro
+[] execVM "fraternity\mapUpdates\zeleno.sqf";															// Zelenogorsk Military Encampment
 //
 // Thanks to AVendettaForYou, Poncho 
 ///////////////////////////////////////////////////////////////////////////////////////////
@@ -135,15 +135,6 @@ if (!isDedicated) then {
 if (!isDedicated) then {
     [] execVM "fraternity\effects.sqf";
 };
-
-// UPSMON
-call compile preprocessFileLineNumbers "addons\UPSMON\scripts\Init_UPSMON.sqf";
-
-// SHK 
-call compile preprocessfile "addons\SHK_pos\shk_pos_init.sqf";
-
-// run SAR_AI
-[] execVM "addons\SARGE\SAR_AI_init.sqf";
 
 // Logistic
 [] execVM "R3F_ARTY_AND_LOG\init.sqf";														// R3F Logistics

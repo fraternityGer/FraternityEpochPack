@@ -8,7 +8,6 @@ disabledAI = true;
 disableChannels[]={0,2,6};
 enableItemsDropping = 0;
 
-#include "addons\SARGE\SAR_define.hpp"
 #include "R3F_ARTY_AND_LOG\desc_include.h"
 
 briefing = 0;
