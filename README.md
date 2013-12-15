@@ -35,7 +35,10 @@ Map Updates
 * Sector FNG
 * Tikhaya City
 * Quarantine Zone Chernogorsk
-* ...
+* Checkpoint between Cherno and Electro
+* Sector FNG (with AI) and Sector UBF (without AI)
+* 
+
 
 Credits
 -------------------
@@ -50,6 +53,7 @@ Credits
 * [Service Point] Axe Cop - http://dayzepoch.com/forum/index.php?/topic/3935-release-vehicle-service-point-refuel-repair-rearm-script/
 * [Tikhaya City] Poncho - http://opendayz.net/threads/14-hours-down-and-here-it-is-tikhaya-city.14871/
 * [Quarantine Zone Chernogorsk] - Poncho - http://opendayz.net/threads/map-addition-chernogorsk-quarantine-zone.14634/
+* [Checkpoint] - Hertizch - http://opendayz.net/threads/military-checkpoint-chernarus.14537/
 * [Dayz Missions] lazyink - https://github.com/lazyink/DayZ-Missions
 * [Epoch loot stuff] MassAsster - http://dayzepoch.com/forum/index.php?/topic/993-dayz-mission-system-randomize-loot/
 

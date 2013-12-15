@@ -121,6 +121,7 @@ if (!isDedicated) then {
 [] execVM "fraternity\mapUpdates\sectorfng_init.sqf"; 													// SectorFNG
 [] execVM "fraternity\mapUpdates\tikhayaCity.sqf";														// Tikhaya City
 [] execVM "fraternity\mapUpdates\quarantineZoneCherno.sqf";												// Chernogorsk Quarantine Zone
+[] execVM "fraternity\mapUpdates\checkpoint.sqf";														// Checkpoint between Cherno and Electro
 //
 // Thanks to AVendettaForYou, Poncho 
 ///////////////////////////////////////////////////////////////////////////////////////////
