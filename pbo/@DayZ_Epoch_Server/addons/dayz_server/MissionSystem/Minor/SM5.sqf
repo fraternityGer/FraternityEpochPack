@@ -13,11 +13,11 @@ publicVariable "MCoords";
 [] execVM "debug\addmarkers75.sqf";
 
 _humveecrash = createVehicle ["HMMWVwreck",_coords,[], 0, "CAN_COLLIDE"];
-_humveecrash setVariable ["Sarge",1,true];
+_humveecrash setVariable ["DZAI",1,true];
 
 _crate3 = createVehicle ["RULaunchersBox",[(_coords select 0) - 14, _coords select 1,0],[], 0, "CAN_COLLIDE"];
 [_crate3] execVM "\z\addons\dayz_server\MissionSystem\misc\fillBoxesH.sqf";
-_crate3 setVariable ["Sarge",1,true];
+_crate3 setVariable ["DZAI",1,true];
 
 [_coords,40,4,3,1] execVM "\z\addons\dayz_server\MissionSystem\add_unit_server.sqf";//AI Guards
 sleep 1;

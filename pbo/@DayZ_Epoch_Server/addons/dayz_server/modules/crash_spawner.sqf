@@ -39,7 +39,7 @@ if (_spawnRoll <= _spawnChance) then
     diag_log(format["CRASHSPAWNER: %1 started flying from %2 to %3 NOW!(TIME:%4||LT:%5)", _crashName,  str(_heliStart), str(_position), round(time), _lootTable]);
     _startTime = time;
     _crashwreck = createVehicle [_heliModel,_heliStart, [], 0, "FLY"];
-    _crashwreck setVariable ["Sarge",1,true];
+    _crashwreck setVariable ["DZAI",1,true];
     _crashwreck setCombatMode "BLUE";
     _crashwreck engineOn true;
     _crashwreck flyInHeight 150;
@@ -94,7 +94,7 @@ if (_spawnRoll <= _spawnChance) then
     deletevehicle _helipilot;
     deletevehicle _landingzone;
     _crash = createVehicle [_crashModel, _pos, [], 0, "CAN_COLLIDE"];
-    _crash setVariable ["Sarge",1,true];
+    _crash setVariable ["DZAI",1,true];
     PVDZE_serverObjectMonitor set [count PVDZE_serverObjectMonitor,_crash];
     if (_spawnFire) then
     {

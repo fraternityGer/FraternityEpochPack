@@ -15,19 +15,19 @@ publicVariable "Ccoords";
 _chopper = ["UH1H_DZ","Mi17_DZ"] call BIS_fnc_selectRandom;
 
 _hueychop = createVehicle [_chopper,_coords,[], 0, "NONE"];
-_hueychop setVariable ["Sarge",1,true];
+_hueychop setVariable ["DZAI",1,true];
 _hueychop setFuel 0.1;
 _hueychop setVehicleAmmo 0.2;
 
 _crate2 = createVehicle ["USLaunchersBox",[(_coords select 0) - 6, _coords select 1,0],[], 0, "CAN_COLLIDE"];
 [_crate2] execVM "\z\addons\dayz_server\MissionSystem\misc\fillBoxesS.sqf";
-_crate2 setVariable ["Sarge",1,true];
+_crate2 setVariable ["DZAI",1,true];
 _crate2 = createVehicle ["USLaunchersBox",[(_coords select 0) + 6, _coords select 1,0],[], 90, "CAN_COLLIDE"];
 [_crate2] execVM "\z\addons\dayz_server\MissionSystem\misc\fillBoxesS.sqf";
-_crate2 setVariable ["Sarge",1,true];
+_crate2 setVariable ["DZAI",1,true];
 _crate3 = createVehicle ["RULaunchersBox",[(_coords select 0) - 14, (_coords select 1) -10,0],[], 0, "CAN_COLLIDE"];
 [_crate3] execVM "\z\addons\dayz_server\MissionSystem\misc\fillBoxesH.sqf";
-_crate3 setVariable ["Sarge",1,true];
+_crate3 setVariable ["DZAI",1,true];
 
 _aispawn = [_coords,80,6,6,1] execVM "\z\addons\dayz_server\MissionSystem\add_unit_server.sqf";//AI Guards
 sleep 5;
