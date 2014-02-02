@@ -2,7 +2,7 @@
 	For DayZ Epoch
 	Addons Credits: Jetski Yanahui by Kol9yN, Zakat, Gerasimow9, YuraPetrov, zGuba, A.Karagod, IceBreakr, Sahbazz
 
-	fraternity 0.5;
+	fraternity 0.6;
 */
 startLoadingScreen ["","RscDisplayLoadCustom"];
 cutText ["","BLACK OUT"];
@@ -132,9 +132,6 @@ if (!isDedicated) then {
 if (!isDedicated) then {
     [] execVM "fraternity\effects.sqf";
 };
-
-// Logistic
-[] execVM "R3F_ARTY_AND_LOG\init.sqf";														// R3F Logistics
 
 
 // DayZ Watermark
