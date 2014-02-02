@@ -1,22 +1,24 @@
 // Time between missions (seconds)
-wai_mission_timer = 1800;
+wai_mission_timer = 600;
 
 // How long before a mission times out (seconds)
-wai_mission_timeout = 3600;
+wai_mission_timeout = 1800;
 
 // missions used when selecting the next random mission
 wai_missions = [
+"bandit_base",
 "armed_vehicle",
-"crash_spawner",
 "disabled_civchopper",
+"crash_spawner",
 "disabled_milchopper",
 "MV22",
 "weapon_cache",
+"mayors_mansion",
 "convoy"
 ];
 
 // fuel the mission vehicles spawn with 0-100.
-wai_mission_fuel = 0;
+wai_mission_fuel = .5;
 
 // armed vehicles to spawn in missions
 armed_vehicle = [

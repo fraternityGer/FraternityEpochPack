@@ -1,7 +1,7 @@
 private ["_currenttime","_starttime","_playerPresent","_cleanmission","_missiontimeout","_guaranteedLoot","_randomizedLoot","_spawnChance","_spawnMarker","_spawnRadius","_spawnFire","_fadeFire","_crashModel","_lootTable","_crashName","_spawnRoll","_position","_crash","_config","_hasAdjustment","_newHeight","_adjustedPos","_num","_itemTypes","_index","_weights","_cntWeights","_nearby","_itemType"];
 
-_guaranteedLoot = 5;
-_randomizedLoot = 2;
+_guaranteedLoot = 25;
+_randomizedLoot = 10;
 //_spawnChance =  0.75;
 _spawnMarker = 'center';
 // _spawnRadius = 5000;
@@ -60,7 +60,7 @@ if (_spawnFire) then {
 	_crash setvariable ["fadeFire",_fadeFire,true];
 };
 
-_config = 		missionconfigFile >> "CfgBuildingLoot" >> _lootTable;
+_config = 		configFile >> "CfgBuildingLoot" >> _lootTable;
 _itemTypes =	[] + getArray (_config >> "itemType");
 _index =        dayz_CBLBase find toLower(_lootTable);
 _weights =		dayz_CBLChances select _index;
@@ -84,6 +84,28 @@ _rndnum = round (random 3) + 5;
 [[_position select 0, _position select 1, 0],                  //position
 
 _rndnum,						  //Number Of units
+1,					      //Skill level 0-1. Has no effect if using custom skills
+"Random",			      //Primary gun set number. "Random" for random weapon set.
+4,						  //Number of magazines
+"",						  //Backpack "" for random or classname here.
+"Bandit2_DZ",						  //Skin "" for random or classname here.
+"Random",				  //Gearset number. "Random" for random gear set.
+true						// mission true
+] call spawn_group;
+
+[[_position select 0, _position select 1, 0],                  //position
+4,						  //Number Of units
+1,					      //Skill level 0-1. Has no effect if using custom skills
+"Random",			      //Primary gun set number. "Random" for random weapon set.
+4,						  //Number of magazines
+"",						  //Backpack "" for random or classname here.
+"Bandit2_DZ",						  //Skin "" for random or classname here.
+"Random",				  //Gearset number. "Random" for random gear set.
+true						// mission true
+] call spawn_group;
+
+[[_position select 0, _position select 1, 0],                  //position
+4,						  //Number Of units
 1,					      //Skill level 0-1. Has no effect if using custom skills
 "Random",			      //Primary gun set number. "Random" for random weapon set.
 4,						  //Number of magazines

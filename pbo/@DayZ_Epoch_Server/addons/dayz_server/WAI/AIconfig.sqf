@@ -45,8 +45,8 @@ ai_custom_skills = True;
 
 /// Custom skill array. Use 0 to use this with ai_custom_skills = True 
 ai_custom_array1 = [
-["aimingAccuracy",0.60],
-["aimingShake",0.60],
+["aimingAccuracy",0.80],
+["aimingShake",0.70],
 ["aimingSpeed",1.00],
 ["endurance",1.00],
 ["spotDistance",1.00],
@@ -59,8 +59,8 @@ ai_custom_array1 = [
 
 /// Custom skill array. Use 1 to use this with ai_custom_skills = True 
 ai_custom_array2 = [
-["aimingAccuracy",0.15],
-["aimingShake",0.20],
+["aimingAccuracy",0.85],
+["aimingShake",0.70],
 ["aimingSpeed",1.00],
 ["endurance",1.00],
 ["spotDistance",1.00],
@@ -73,8 +73,8 @@ ai_custom_array2 = [
 
 /// Custom skill array. Use 2 to use this with ai_custom_skills = True 
 ai_custom_array3 = [
-["aimingAccuracy",0.60],
-["aimingShake",0.60],
+["aimingAccuracy",0.80],
+["aimingShake",0.70],
 ["aimingSpeed",1.00],
 ["endurance",1.00],
 ["spotDistance",1.00],
@@ -97,9 +97,9 @@ ai_static_skills = True;
 
 /// Custom skill array. Use this with ai_static_skills = True;
 ai_static_array = [
-["aimingAccuracy",0.15],
-["aimingShake",0.20],
-["aimingSpeed",0.50],
+["aimingAccuracy",0.85],
+["aimingShake",0.70],
+["aimingSpeed",0.75],
 ["endurance",1.00],
 ["spotDistance",1.00],
 ["spotTime",1.00],
@@ -115,31 +115,31 @@ ai_static_array = [
 /// 0 ///
 ai_gear0 = [
 ["ItemBandage","ItemBandage","ItemPainkiller"],
-["ItemKnife","ItemFlashlight"]
+["ItemKnife","ItemRadio","ItemFlashlight"]
 ];
 
 /// 1 ///
 ai_gear1 = [
 ["ItemBandage","ItemBandage","ItemPainkiller"],
-["ItemKnife","ItemFlashlight"]
+["ItemKnife","ItemRadio","ItemFlashlight"]
 ];
 
 /// 2 ///
 ai_gear2 = [
 ["ItemBandage","ItemBandage","ItemPainkiller"],
-["ItemKnife","ItemFlashlight"]
+["ItemKnife","ItemRadio","ItemFlashlight"]
 ];
 
 /// 3 ///
 ai_gear3 = [
 ["ItemBandage","ItemBandage","ItemPainkiller"],
-["ItemKnife","ItemFlashlight"]
+["ItemKnife","ItemRadio","ItemFlashlight"]
 ];
 
 /// 4 ///
 ai_gear4 = [
 ["ItemBandage","ItemBandage","ItemPainkiller"],
-["ItemKnife","ItemFlashlight"]
+["ItemKnife","ItemRadio","ItemFlashlight"]
 ];
 
 /// Gearsets to use if set to "Random" ///
@@ -210,13 +210,9 @@ ai_wep_random = [ai_wep0,ai_wep1,ai_wep2,ai_wep3,ai_wep4];
 ///////////////////////////////////////////////////////
 /// Backpacks used when "" for random ///
 ai_packs = [
-"DZ_Patrol_Pack_EP1",
-"DZ_Assault_Pack_EP1",
 "DZ_Czech_Vest_Puch",
-"DZ_TerminalPack_EP1",
 "DZ_ALICE_Pack_EP1",
 "DZ_TK_Assault_Pack_EP1",
-"DZ_CompactPack_EP1",
 "DZ_British_ACU",
 "DZ_GunBag_EP1",
 "DZ_CivilBackpack_EP1",

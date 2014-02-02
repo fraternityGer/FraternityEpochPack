@@ -1,5 +1,6 @@
-private ["_objPosition3","_objPosition2","_vehclass3","_vehclass2","_veh3","_veh2","_playerPresent","_cleanmission","_currenttime","_starttime","_missiontimeout","_vehname","_veh","_position","_vehclass","_vehdir","_objPosition"];
+//Construction Supply
 
+private ["_objPosition3","_objPosition2","_vehclass3","_vehclass2","_veh3","_veh2","_playerPresent","_cleanmission","_currenttime","_starttime","_missiontimeout","_vehname","_veh","_position","_vehclass","_vehdir","_objPosition"];
 
 _vehclass = cargo_trucks call BIS_fnc_selectRandom;
 _vehclass2 = refuel_trucks call BIS_fnc_selectRandom;
@@ -8,8 +9,9 @@ _vehclass3 = military_unarmed call BIS_fnc_selectRandom;
 _position = [getMarkerPos "center",0,5500,10,0,2000,0] call BIS_fnc_findSafePos;
 diag_log format["WAI: Mission Convoy Started At %1",_position];
 
+//Construction Supply Box
 _box = createVehicle ["BAF_VehicleBox",[(_position select 0),(_position select 1),0], [], 0, "CAN_COLLIDE"];
-[_box] call spawn_ammo_box;
+[_box] call Construction_Supply_box;
 
 _veh = createVehicle [_vehclass,[(_position select 0) - 15,(_position select 1),0], [], 0, "CAN_COLLIDE"];
 _vehdir = round(random 360);
@@ -42,44 +44,18 @@ diag_log format["WAI: Mission Convoy spawned a %1",_vehclass3];
 
 _objPosition3 = getPosATL _veh3;
 
+//Troops
 _rndnum = round (random 3) + 5;
-[[_position select 0, _position select 1, 0],                  //position
-_rndnum,						  //Number Of units
-1,					      //Skill level 0-1. Has no effect if using custom skills
-"Random",			      //Primary gun set number. "Random" for random weapon set.
-4,						  //Number of magazines
-"",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",						  //Skin "" for random or classname here.
-"Random",				  //Gearset number. "Random" for random gear set.
-true						// mission true
-] call spawn_group;
+[[_position select 0, _position select 1, 0],_rndnum,1,"Random",4,"","USMC_LHD_Crew_Yellow","Random",true] call spawn_group;
+[[_position select 0, _position select 1, 0],5,1,"Random",4,"","USMC_LHD_Crew_Blue","Random",true] call spawn_group;
+[[_position select 0, _position select 1, 0],5,1,"Random",4,"","USMC_LHD_Crew_Blue","Random",true] call spawn_group;
+[[_position select 0, _position select 1, 0],5,1,"Random",4,"","USMC_LHD_Crew_Blue","Random",true] call spawn_group;
 
-[[_position select 0, _position select 1, 0],                  //position
-4,						  //Number Of units
-1,					      //Skill level 0-1. Has no effect if using custom skills
-"Random",			      //Primary gun set number. "Random" for random weapon set.
-4,						  //Number of magazines
-"",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",						  //Skin "" for random or classname here.
-"Random",				  //Gearset number. "Random" for random gear set.
-true					// mission true
-] call spawn_group;
-
-[[_position select 0, _position select 1, 0],                  //position
-4,						  //Number Of units
-1,					      //Skill level 0-1. Has no effect if using custom skills
-"Random",			      //Primary gun set number. "Random" for random weapon set.
-4,						  //Number of magazines
-"",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",						  //Skin "" for random or classname here.
-"Random",				  //Gearset number. "Random" for random gear set.
-true						// mission true
-] call spawn_group;
-
-[[[(_position select 0), (_position select 1) + 10, 0]], //position(s) (can be multiple).
+//Turrets
+[[[(_position select 0) + 5, (_position select 1) + 10, 0]], //position(s) (can be multiple).
 "M2StaticMG",             //Classname of turret
-0.5,					  //Skill level 0-1. Has no effect if using custom skills
-"Bandit2_DZ",				          //Skin "" for random or classname here.
+0.7,					  //Skill level 0-1. Has no effect if using custom skills
+"USMC_LHD_Crew_Yellow",				          //Skin "" for random or classname here.
 1,						  //Primary gun set number. "Random" for random weapon set. (not needed if ai_static_useweapon = False)
 2,						  //Number of magazines. (not needed if ai_static_useweapon = False)
 "",						  //Backpack "" for random or classname here. (not needed if ai_static_useweapon = False)
@@ -87,9 +63,34 @@ true						// mission true
 true						// mission true
 ] call spawn_static;
 
+[[[(_position select 0) - 5, (_position select 1) - 10, 0]], //position(s) (can be multiple).
+"M2StaticMG",             //Classname of turret
+0.7,					  //Skill level 0-1. Has no effect if using custom skills
+"USMC_LHD_Crew_Blue",				          //Skin "" for random or classname here.
+1,						  //Primary gun set number. "Random" for random weapon set. (not needed if ai_static_useweapon = False)
+2,						  //Number of magazines. (not needed if ai_static_useweapon = False)
+"",						  //Backpack "" for random or classname here. (not needed if ai_static_useweapon = False)
+"Random",				  //Gearset number. "Random" for random gear set. (not needed if ai_static_useweapon = False)
+true						// mission true
+] call spawn_static;
+
+[[[(_position select 0) + 10, (_position select 1) -15, 0]], //position(s) (can be multiple).
+"M2StaticMG",             //Classname of turret
+0.7,					  //Skill level 0-1. Has no effect if using custom skills
+"USMC_LHD_Crew_Yellow",				          //Skin "" for random or classname here.
+1,						  //Primary gun set number. "Random" for random weapon set. (not needed if ai_static_useweapon = False)
+2,						  //Number of magazines. (not needed if ai_static_useweapon = False)
+"",						  //Backpack "" for random or classname here. (not needed if ai_static_useweapon = False)
+"Random",				  //Gearset number. "Random" for random gear set. (not needed if ai_static_useweapon = False)
+true						// mission true
+] call spawn_static;
+
+//Heli Para Drop
+[[(_position select 0),(_position select 1),0],[0,0,0],400,"BAF_Merlin_HC3_D",10,1,"Random",4,"","USMC_LHD_Crew_Blue","Random",False] spawn heli_para;
+
 
 [_position,"Disabled Convoy"] execVM "\z\addons\dayz_server\WAI\missions\compile\markers.sqf";
-[nil,nil,rTitleText,"Bandits have disabled a Convoy! Check your map for the location!", "PLAIN",10] call RE;
+[nil,nil,rTitleText,"An Ikea delivery has been hijacked by bandits, take over the convoy and the building supplies are yours!", "PLAIN",10] call RE;
 
 _missiontimeout = true;
 _cleanmission = false;
@@ -114,7 +115,7 @@ if (_playerPresent) then {
 		(_playerPresent)
 	};
 	diag_log format["WAI: Mission Convoy Ended At %1",_position];
-	[nil,nil,rTitleText,"Survivors have secured the convoy!", "PLAIN",10] call RE;
+	[nil,nil,rTitleText,"Survivors have secured the building supplies!", "PLAIN",10] call RE;
 } else {
 	clean_running_mission = True;
 	deleteVehicle _veh;

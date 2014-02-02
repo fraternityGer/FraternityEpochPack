@@ -52,7 +52,7 @@ Place your custom static weapon spawns below
 
 
 
-// Custom Chopper Patrol spawn Eg.
+//Custom Chopper Patrol spawn Eg.
 
 [[725.391,4526.06,0],    //Position to patrol
 [0,0,0],	             // Position to spawn chopper at
@@ -82,7 +82,6 @@ Custom Vehicle patrol spawns Eg. (Watch out they are stupid)
 
 Place your vehicle patrols below this line
 */
-
 
 
 
