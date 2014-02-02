@@ -1,0 +1,1058 @@
+07.10.2013 18:36:10: Ethaden (109.192.99.204:2304) 86101fc8969ae0e37acdecec9c48424c - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+07.10.2013 18:36:17: Ethaden (109.192.99.204:2304) 86101fc8969ae0e37acdecec9c48424c - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+14.10.2013 23:08:46: 2K Pro (79.221.160.190:2304) f5cc1672b6e6bb0b6f19f924d6560ca4 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+25.10.2013 09:16:45: Barsalt (5.28.96.64:2304) c9e143ca66b54c8c5264e16ed2903020 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+25.10.2013 09:16:46: Barsalt (5.28.96.64:2304) c9e143ca66b54c8c5264e16ed2903020 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+25.10.2013 09:16:51: Barsalt (5.28.96.64:2304) c9e143ca66b54c8c5264e16ed2903020 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+06.11.2013 11:08:20: JimTim (87.158.56.200:2304) 0105b3a7c43ff306533cab315fca4f46 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+06.11.2013 11:08:25: JimTim (87.158.56.200:2304) 0105b3a7c43ff306533cab315fca4f46 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+06.11.2013 11:16:49: JimTim (87.158.56.200:2304) 0105b3a7c43ff306533cab315fca4f46 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+06.11.2013 11:17:16: JimTim (87.158.56.200:2304) 0105b3a7c43ff306533cab315fca4f46 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+06.11.2013 11:17:33: JimTim (87.158.56.200:2304) 0105b3a7c43ff306533cab315fca4f46 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+13.11.2013 14:09:25: Cerber11 (88.201.205.171:2304) a2112983468cd328bfdf489ac1f6f82d - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+14.11.2013 10:06:34: Finbarr (95.113.147.64:2304) 8845a6e2eebeb494f19a04e14037f372 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+14.11.2013 10:09:13: Finbarr (95.113.147.64:2304) 8845a6e2eebeb494f19a04e14037f372 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+14.11.2013 10:10:02: Finbarr (95.113.147.64:2304) 8845a6e2eebeb494f19a04e14037f372 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+14.11.2013 10:11:28: Finbarr (95.113.147.64:2304) 8845a6e2eebeb494f19a04e14037f372 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+14.11.2013 10:12:33: Finbarr (95.113.147.64:2304) 8845a6e2eebeb494f19a04e14037f372 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+14.11.2013 10:38:31: Finbarr (95.113.147.64:2304) 8845a6e2eebeb494f19a04e14037f372 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+14.11.2013 10:38:42: Finbarr (95.113.147.64:2304) 8845a6e2eebeb494f19a04e14037f372 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+14.11.2013 10:39:22: Finbarr (95.113.147.64:2304) 8845a6e2eebeb494f19a04e14037f372 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+30.11.2013 11:53:41: DNIWE (188.187.50.174:2304) d99824e2ac0064fca03196dca75a0515 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+30.11.2013 11:53:46: DNIWE (188.187.50.174:2304) d99824e2ac0064fca03196dca75a0515 - #0 "_ammo > 0) then {
+player removeMagazines "Quiver";
+player addMagazine ["Quiver", _ammo];
+};
+};
+
+while {alive _projectile} do {
+_"
+15.12.2013 08:21:39: Rawrbin (2.241.187.212:2304) 85b8b432c3f791fa7ef504cc727536b6 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+16.12.2013 02:28:28: Finbarr (95.113.108.242:2304) 8845a6e2eebeb494f19a04e14037f372 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+16.12.2013 02:31:17: Finbarr (95.113.108.242:2304) 8845a6e2eebeb494f19a04e14037f372 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+16.12.2013 02:32:30: Finbarr (95.113.108.242:2304) 8845a6e2eebeb494f19a04e14037f372 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+16.12.2013 02:32:40: Finbarr (95.113.108.242:2304) 8845a6e2eebeb494f19a04e14037f372 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+17.12.2013 05:32:23: Rawrbin (2.241.166.18:2304) 85b8b432c3f791fa7ef504cc727536b6 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+17.12.2013 05:46:38: Rawrbin (2.241.166.18:2304) 85b8b432c3f791fa7ef504cc727536b6 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+17.12.2013 05:49:37: Jiive (85.127.99.46:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+17.12.2013 06:05:57: Rawrbin (2.241.166.18:2304) 85b8b432c3f791fa7ef504cc727536b6 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+17.12.2013 06:09:08: Finbarr (95.114.185.158:2304) 8845a6e2eebeb494f19a04e14037f372 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+17.12.2013 06:09:43: Finbarr (95.114.185.158:2304) 8845a6e2eebeb494f19a04e14037f372 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+17.12.2013 06:10:44: Rawrbin (2.241.166.18:2304) 85b8b432c3f791fa7ef504cc727536b6 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+17.12.2013 06:12:41: Finbarr (95.114.185.158:2304) 8845a6e2eebeb494f19a04e14037f372 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+18.12.2013 06:05:39: Chris (93.211.252.251:63797) aa064991488d3993a67a24d51a672bcc - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+18.12.2013 06:06:23: Chris (93.211.252.251:63797) aa064991488d3993a67a24d51a672bcc - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+19.12.2013 07:38:01: Chris (93.211.243.136:63880) aa064991488d3993a67a24d51a672bcc - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+20.12.2013 10:35:09: sEnzaij (93.211.242.50:2304) 62293486e0451b9fb67b5231f9273d66 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+20.12.2013 11:24:54: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+20.12.2013 11:24:58: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+20.12.2013 11:25:02: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+20.12.2013 12:26:43: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+20.12.2013 12:28:22: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+20.12.2013 12:28:33: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 06:22:53: [Delta] Soziopath. (79.230.166.185:2304) bfe4f81dc55149eb4bb7992360f0d1a3 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 06:22:53: [Delta] Soziopath. (79.230.166.185:2304) bfe4f81dc55149eb4bb7992360f0d1a3 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 06:22:53: [Delta] Soziopath. (79.230.166.185:2304) bfe4f81dc55149eb4bb7992360f0d1a3 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 06:22:54: [Delta] Soziopath. (79.230.166.185:2304) bfe4f81dc55149eb4bb7992360f0d1a3 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 06:22:54: [Delta] Soziopath. (79.230.166.185:2304) bfe4f81dc55149eb4bb7992360f0d1a3 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 06:22:55: [Delta] Soziopath. (79.230.166.185:2304) bfe4f81dc55149eb4bb7992360f0d1a3 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 06:22:56: [Delta] Soziopath. (79.230.166.185:2304) bfe4f81dc55149eb4bb7992360f0d1a3 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 06:22:56: [Delta] Soziopath. (79.230.166.185:2304) bfe4f81dc55149eb4bb7992360f0d1a3 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 06:22:57: [Delta] Soziopath. (79.230.166.185:2304) bfe4f81dc55149eb4bb7992360f0d1a3 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 06:22:57: [Delta] Soziopath. (79.230.166.185:2304) bfe4f81dc55149eb4bb7992360f0d1a3 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 06:22:58: [Delta] Soziopath. (79.230.166.185:2304) bfe4f81dc55149eb4bb7992360f0d1a3 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 06:22:58: [Delta] Soziopath. (79.230.166.185:2304) bfe4f81dc55149eb4bb7992360f0d1a3 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 06:22:59: [Delta] Soziopath. (79.230.166.185:2304) bfe4f81dc55149eb4bb7992360f0d1a3 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 06:22:59: [Delta] Soziopath. (79.230.166.185:2304) bfe4f81dc55149eb4bb7992360f0d1a3 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 06:23:00: [Delta] Soziopath. (79.230.166.185:2304) bfe4f81dc55149eb4bb7992360f0d1a3 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 06:23:00: [Delta] Soziopath. (79.230.166.185:2304) bfe4f81dc55149eb4bb7992360f0d1a3 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 06:23:01: [Delta] Soziopath. (79.230.166.185:2304) bfe4f81dc55149eb4bb7992360f0d1a3 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 06:23:01: [Delta] Soziopath. (79.230.166.185:2304) bfe4f81dc55149eb4bb7992360f0d1a3 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 06:23:03: [Delta] Soziopath. (79.230.166.185:2304) bfe4f81dc55149eb4bb7992360f0d1a3 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 06:23:03: [Delta] Soziopath. (79.230.166.185:2304) bfe4f81dc55149eb4bb7992360f0d1a3 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 22:28:37: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 22:28:50: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 22:29:20: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 22:31:04: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 22:31:12: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 22:31:21: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+21.12.2013 22:31:31: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+22.12.2013 00:32:46: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+22.12.2013 00:32:49: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+22.12.2013 00:32:53: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+22.12.2013 01:18:53: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+22.12.2013 01:18:57: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+22.12.2013 01:19:01: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+22.12.2013 01:51:06: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+22.12.2013 02:16:47: sEnzaij (93.211.231.183:2304) 62293486e0451b9fb67b5231f9273d66 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+22.12.2013 02:16:55: sEnzaij (93.211.231.183:2304) 62293486e0451b9fb67b5231f9273d66 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+22.12.2013 02:18:03: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+22.12.2013 02:18:09: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+22.12.2013 02:18:12: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+22.12.2013 02:20:43: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+22.12.2013 02:27:11: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+22.12.2013 02:27:18: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+22.12.2013 02:27:53: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+22.12.2013 02:28:04: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+22.12.2013 02:29:41: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+22.12.2013 02:32:21: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+22.12.2013 02:32:55: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+22.12.2013 02:32:59: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+23.12.2013 06:58:49: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+23.12.2013 06:58:53: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+23.12.2013 06:58:57: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+24.12.2013 01:36:12: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+24.12.2013 01:36:16: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+24.12.2013 01:36:18: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+24.12.2013 01:56:23: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+24.12.2013 14:16:24: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+24.12.2013 14:16:30: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+24.12.2013 14:37:22: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+24.12.2013 14:37:26: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+24.12.2013 14:37:29: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+24.12.2013 14:38:26: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+24.12.2013 14:38:32: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+24.12.2013 14:38:35: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+24.12.2013 23:26:55: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+24.12.2013 23:26:59: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+24.12.2013 23:27:02: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+24.12.2013 23:30:24: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+24.12.2013 23:30:28: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+24.12.2013 23:30:31: Jiive (85.127.118.134:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+26.12.2013 01:26:59: Jiive (85.127.103.79:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+26.12.2013 01:27:03: Jiive (85.127.103.79:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+26.12.2013 01:27:05: Jiive (85.127.103.79:2304) 45f3b7a15eff5a08485f0798ef5f866c - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+28.12.2013 06:02:18: Sawka (5.140.233.89:2304) 0d6293aeb533b109378c53e253e68512 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+28.12.2013 22:00:05: Sawka (5.140.233.89:2304) 0d6293aeb533b109378c53e253e68512 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+28.12.2013 22:00:37: Sawka (5.140.233.89:2304) 0d6293aeb533b109378c53e253e68512 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+28.12.2013 22:00:39: Sawka (5.140.233.89:2304) 0d6293aeb533b109378c53e253e68512 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+28.12.2013 22:00:53: Sawka (5.140.233.89:2304) 0d6293aeb533b109378c53e253e68512 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+28.12.2013 22:24:32: Sawka (5.140.233.89:2304) 0d6293aeb533b109378c53e253e68512 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+28.12.2013 22:25:30: Sawka (5.140.233.89:2304) 0d6293aeb533b109378c53e253e68512 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+28.12.2013 22:25:44: Sawka (5.140.233.89:2304) 0d6293aeb533b109378c53e253e68512 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+28.12.2013 22:27:22: Sawka (5.140.233.89:2304) 0d6293aeb533b109378c53e253e68512 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+28.12.2013 22:27:38: Sawka (5.140.233.89:2304) 0d6293aeb533b109378c53e253e68512 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+30.12.2013 08:12:50: DNIWE (176.214.25.152:2304) d99824e2ac0064fca03196dca75a0515 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+30.12.2013 08:17:53: DNIWE (176.214.25.152:2304) d99824e2ac0064fca03196dca75a0515 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+30.12.2013 08:17:54: DNIWE (176.214.25.152:2304) d99824e2ac0064fca03196dca75a0515 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+30.12.2013 08:19:18: DNIWE (176.214.25.152:2304) d99824e2ac0064fca03196dca75a0515 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+30.12.2013 08:24:07: DNIWE (176.214.25.152:2304) d99824e2ac0064fca03196dca75a0515 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+30.12.2013 08:24:25: DNIWE (176.214.25.152:2304) d99824e2ac0064fca03196dca75a0515 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+30.12.2013 08:25:45: DNIWE (176.214.25.152:2304) d99824e2ac0064fca03196dca75a0515 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+30.12.2013 08:28:01: DNIWE (176.214.25.152:2304) d99824e2ac0064fca03196dca75a0515 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+31.12.2013 00:50:14: DNIWE (176.214.17.100:2304) d99824e2ac0064fca03196dca75a0515 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+31.12.2013 00:51:18: DNIWE (176.214.17.100:2304) d99824e2ac0064fca03196dca75a0515 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+31.12.2013 00:52:11: DNIWE (176.214.17.100:2304) d99824e2ac0064fca03196dca75a0515 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+31.12.2013 06:20:17: DNIWE (176.214.17.100:2304) d99824e2ac0064fca03196dca75a0515 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+31.12.2013 06:37:03: DNIWE (176.214.17.100:2304) d99824e2ac0064fca03196dca75a0515 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+01.01.2014 04:56:10: DNIWE (5.164.65.148:2304) d99824e2ac0064fca03196dca75a0515 - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+19.01.2014 06:51:53: rbs (146.52.114.13:2304) 23b972d32e81631bc8d7460e0eaca6ca - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+19.01.2014 06:52:41: rbs (146.52.114.13:2304) 23b972d32e81631bc8d7460e0eaca6ca - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+19.01.2014 06:52:46: rbs (146.52.114.13:2304) 23b972d32e81631bc8d7460e0eaca6ca - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+19.01.2014 06:52:50: rbs (146.52.114.13:2304) 23b972d32e81631bc8d7460e0eaca6ca - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+19.01.2014 06:56:05: rbs (146.52.114.13:2304) 23b972d32e81631bc8d7460e0eaca6ca - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+19.01.2014 06:56:10: rbs (146.52.114.13:2304) 23b972d32e81631bc8d7460e0eaca6ca - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
+19.01.2014 06:56:15: rbs (146.52.114.13:2304) 23b972d32e81631bc8d7460e0eaca6ca - #2 "kToSell) then {
+
+for "_x" from 1 to _qty_out do {
+player addMagazine _part_out;
+};
+
+_objectID 	= _obj getVariable ["ObjectID","0"
