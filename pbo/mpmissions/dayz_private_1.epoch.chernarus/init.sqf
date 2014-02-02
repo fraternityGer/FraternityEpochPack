@@ -2,7 +2,7 @@
 	For DayZ Epoch
 	Addons Credits: Jetski Yanahui by Kol9yN, Zakat, Gerasimow9, YuraPetrov, zGuba, A.Karagod, IceBreakr, Sahbazz
 
-	fraternity 0.2;
+	fraternity 0.5;
 */
 startLoadingScreen ["","RscDisplayLoadCustom"];
 cutText ["","BLACK OUT"];
@@ -26,16 +26,15 @@ enableSentences false;
 // DayZ Epoch config
 spawnShoremode = 1; // Default = 1 (on shore)
 spawnArea= 1500; // Default = 1500
-MaxHeliCrashes= 5; // Default = 5
+
 MaxVehicleLimit = 300; // Default = 50
 MaxDynamicDebris = 500; // Default = 100
 dayz_MapArea = 14000; // Default = 10000
-dayz_maxLocalZombies = 30; // Default = 30
+dayz_maxLocalZombies = 30; // Default = 30 
 DZE_BuildingLimit = 600; //BuildingLimit
 DZE_DeathMsgGlobal = true;
 DZE_DeathMsgTitleText = true;
 
-DZE_DeathMsgTitleText =true;
 dayz_paraSpawn = false;
 
 dayz_minpos = -1; 
@@ -45,10 +44,12 @@ dayz_sellDistance_vehicle = 10;
 dayz_sellDistance_boat = 30;
 dayz_sellDistance_air = 40;
 
-dayz_maxAnimals = 8; // Default: 8
+dayz_maxAnimals = 5; // Default: 8
 dayz_tameDogs = true;
 DynamicVehicleDamageLow = 0; // Default: 0
 DynamicVehicleDamageHigh = 100; // Default: 100
+
+DZE_BuildOnRoads = false; // Default: False
 
 EpochEvents = [["any","any","any","any",30,"crash_spawner"],["any","any","any","any",0,"crash_spawner"],["any","any","any","any",15,"supply_drop"]];
 dayz_fullMoonNights = true;
@@ -77,11 +78,11 @@ progressLoadingScreen 1.0;
 "filmic" setToneMappingParams [0.153, 0.357, 0.231, 0.1573, 0.011, 3.750, 6, 4]; setToneMapping "Filmic";
 
 if (isServer) then {
+	call compile preprocessFileLineNumbers "\z\addons\dayz_server\missions\DayZ_Epoch_11.Chernarus\dynamic_vehicle.sqf";
 	//Compile vehicle configs
-	call compile preprocessFileLineNumbers "\z\addons\dayz_server\missions\DayZ_Epoch_11.Chernarus\dynamic_vehicle.sqf";				
+	
 	// Add trader citys
 	_nil = [] execVM "\z\addons\dayz_server\missions\DayZ_Epoch_11.Chernarus\mission.sqf";
-
 	_serverMonitor = 	[] execVM "\z\addons\dayz_code\system\server_monitor.sqf";
 };
 
@@ -93,20 +94,17 @@ if (!isDedicated) then {
 	
 	//Run the player monitor
 	_id = player addEventHandler ["Respawn", {_id = [] spawn player_death;}];
-	_playerMonitor = 	[] execVM "\z\addons\dayz_code\system\player_monitor.sqf";
+	_playerMonitor = 	[] execVM "\z\addons\dayz_code\system\player_monitor.sqf";	
 	
-
 	//anti Hack
 	[] execVM "\z\addons\dayz_code\system\antihack.sqf";
 
-	_nul = [] execVM "camera\loginCamera.sqf";   
-	
+	_nul = [] execVM "camera\loginCamera.sqf"; 
+
 	[] execVM "fraternity\Server_WelcomeCredits.sqf";	
 
 	//Repair Service Station
-	[] execVM "addons\servicePoint\service_point.sqf";
-	
-	
+	[] execVM "addons\servicePoint\service_point.sqf";  
 };
 
 [] execVM "fraternity\mapUpdates\villages.sqf";															// Epoch Trader Villages 1.2
@@ -129,7 +127,6 @@ if (!isDedicated) then {
 // Thanks to AVendettaForYou, Poncho 
 ///////////////////////////////////////////////////////////////////////////////////////////
 
-
 //fraternity
 // Effekte
 if (!isDedicated) then {
@@ -138,6 +135,7 @@ if (!isDedicated) then {
 
 // Logistic
 [] execVM "R3F_ARTY_AND_LOG\init.sqf";														// R3F Logistics
+
 
 //show mission markers
 [] execVM "debug\addmarkers.sqf";
@@ -154,5 +152,6 @@ if (!isNil "server_name") then {
 
 //Start Dynamic Weather
 execVM "\z\addons\dayz_code\external\DynamicWeatherEffects.sqf";
+
 
 #include "\z\addons\dayz_code\system\BIS_Effects\init.sqf"

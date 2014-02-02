@@ -41,7 +41,7 @@ waitUntil {!isNil "dayz_animalCheck"};
 sleep 10; //Wait in seconds before the credits start after player IS ingame
  
 _role1 = "Have fun with ";
-_role1names = ["DayZ Epoch 1.0.3.1 and Fraternity Pack V0.5 [Alpha]"];
+_role1names = ["DayZ Epoch 1.0.4 and Fraternity Pack V0.6 [Alpha]"];
 _role2 = "Server Admins";
 _role2names = ["JimTim", "Scoprion3de","M31d0"];
 _role3 = "Website";

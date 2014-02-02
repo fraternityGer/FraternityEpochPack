@@ -8,8 +8,6 @@ disabledAI = true;
 disableChannels[]={0,2,6};
 enableItemsDropping = 0;
 
-#include "R3F_ARTY_AND_LOG\desc_include.h"
-
 briefing = 0;
 debriefing = 0;
 
