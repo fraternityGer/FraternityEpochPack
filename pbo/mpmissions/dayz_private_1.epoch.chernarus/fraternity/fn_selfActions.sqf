@@ -423,7 +423,7 @@ if (!isNull cursorTarget and !_inVehicle and !_isPZombie and (player distance cu
 		// Study body
 		if (_isMan and !_isZombie and !_isAnimal) then {
 			_player_studybody = true;
-		}
+		};
 
 		//bury human
 		if (!_isZombie and !_isAnimal and _hasETool and _isMan and _canDo) then {

@@ -51,8 +51,8 @@ Place your custom static weapon spawns below
 
 
 
-/*
-Custom Chopper Patrol spawn Eg.
+
+// Custom Chopper Patrol spawn Eg.
 
 [[725.391,4526.06,0],    //Position to patrol
 [0,0,0],	             // Position to spawn chopper at
@@ -62,8 +62,8 @@ Custom Chopper Patrol spawn Eg.
 1						//Skill level of units 
 ] spawn heli_patrol;
 
-Place your heli patrols below
-*/
+//Place your heli patrols below
+
 
 
 
@@ -88,7 +88,7 @@ Place your vehicle patrols below this line
 
 
 
-Paradropped unit custom spawn Eg.
+//Paradropped unit custom spawn Eg.
 
 [[911.21545,4532.7612,2.6292224],  //Position that units will be dropped by
 [0,0,0],                           //Starting position of the heli
@@ -104,6 +104,6 @@ Paradropped unit custom spawn Eg.
 True                               //True: Heli will stay at position and fight. False: Heli will leave if not under fire. 
 ] spawn heli_para;
 
-Place your paradrop spawns under this line
+//Place your paradrop spawns under this line
 
 
