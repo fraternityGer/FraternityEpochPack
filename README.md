@@ -4,6 +4,13 @@ Fraternity Epoch Pack
 Changelog
 -------------------
 
+v0.6 [Alpha]
+* [add]			Wicked AI/Mission system http://epochmod.com/forum/index.php?/topic/4427-wicked-aimission-system/
+* [update]		Epoch 1.0.4
+* [remove]		Old Missionsystem
+* [remove]		Sarge AI and DayZAI Bandit 
+
+-------------------
 v0.5 [Alpha]
 
 * [add] 		Zelenogorsk Military Encampment
